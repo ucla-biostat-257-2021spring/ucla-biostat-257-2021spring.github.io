@@ -13127,14 +13127,14 @@ $( document ).ready(function(){
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Julia Version 1.4.0
-Commit b8e9a9ecc6 (2020-03-21 16:36 UTC)
+<pre>Julia Version 1.6.0
+Commit f9720dc2eb (2021-03-24 12:55 UTC)
 Platform Info:
-  OS: macOS (x86_64-apple-darwin18.6.0)
+  OS: macOS (x86_64-apple-darwin19.6.0)
   CPU: Intel(R) Core(TM) i7-6920HQ CPU @ 2.90GHz
   WORD_SIZE: 64
   LIBM: libopenlibm
-  LLVM: libLLVM-8.0.1 (ORCJIT, skylake)
+  LLVM: libLLVM-11.0.1 (ORCJIT, skylake)
 Environment:
   JULIA_EDITOR = code
   JULIA_NUM_THREADS = 4
@@ -13335,33 +13335,33 @@ Google search with <code>PackageName.jl</code> usually leads to the package on g
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>418-element Array{String,1}:
+<pre>637-element Vector{String}:
  &#34;.DS_Store&#34;
+ &#34;ADMIXTURE&#34;
  &#34;AMD&#34;
+ &#34;ASL_jll&#34;
  &#34;AbstractFFTs&#34;
  &#34;AbstractMCMC&#34;
  &#34;AbstractTrees&#34;
  &#34;AccurateArithmetic&#34;
  &#34;Adapt&#34;
+ &#34;AdvancedHMC&#34;
+ &#34;AdvancedMH&#34;
+ &#34;AdvancedVI&#34;
  &#34;AlgebraicMultigrid&#34;
- &#34;AlgorithmsFromTheBook&#34;
- &#34;ArgCheck&#34;
- &#34;ArnoldiMethod&#34;
- &#34;Arpack&#34;
- &#34;Arpack_jll&#34;
  ⋮
- &#34;ZMQ&#34;
- &#34;ZeroMQ_jll&#34;
- &#34;ZipFile&#34;
- &#34;Zlib_jll&#34;
- &#34;Zstd_jll&#34;
  &#34;Zygote&#34;
  &#34;ZygoteRules&#34;
+ &#34;ghr_jll&#34;
  &#34;libass_jll&#34;
  &#34;libfdk_aac_jll&#34;
+ &#34;libpng_jll&#34;
+ &#34;libsodium_jll&#34;
  &#34;libvorbis_jll&#34;
+ &#34;nghttp2_jll&#34;
  &#34;x264_jll&#34;
- &#34;x265_jll&#34;</pre>
+ &#34;x265_jll&#34;
+ &#34;xkbcommon_jll&#34;</pre>
 </div>
 
 </div>
@@ -13406,7 +13406,7 @@ Google search with <code>PackageName.jl</code> usually leads to the package on g
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&#34;/Users/huazhou/.julia/packages/Distributions/dTXqn/src/Distributions.jl&#34;</pre>
+<pre>&#34;/Users/huazhou/.julia/packages/Distributions/cNe2C/src/Distributions.jl&#34;</pre>
 </div>
 
 </div>
@@ -13499,19 +13499,18 @@ Google search with <code>PackageName.jl</code> usually leads to the package on g
 <div class="output_text output_subarea output_execute_result">
 <pre>RObject{VecSxp}
 $breaks
- [1] -4.0 -3.5 -3.0 -2.5 -2.0 -1.5 -1.0 -0.5  0.0  0.5  1.0  1.5  2.0  2.5  3.0
-[16]  3.5
+ [1] -3.5 -3.0 -2.5 -2.0 -1.5 -1.0 -0.5  0.0  0.5  1.0  1.5  2.0  2.5  3.0
 
 $counts
- [1]   1   2   5  21  55  85 134 195 179 163  90  46  15   8   1
+ [1]   2   5  19  48  88 138 164 223 160  84  46  19   4
 
 $density
- [1] 0.002 0.004 0.010 0.042 0.110 0.170 0.268 0.390 0.358 0.326 0.180 0.092
-[13] 0.030 0.016 0.002
+ [1] 0.004 0.010 0.038 0.096 0.176 0.276 0.328 0.446 0.320 0.168 0.092 0.038
+[13] 0.008
 
 $mids
- [1] -3.75 -3.25 -2.75 -2.25 -1.75 -1.25 -0.75 -0.25  0.25  0.75  1.25  1.75
-[13]  2.25  2.75  3.25
+ [1] -3.25 -2.75 -2.25 -1.75 -1.25 -0.75 -0.25  0.25  0.75  1.25  1.75  2.25
+[13]  2.75
 
 $xname
 [1] &#34;`#JL`$x&#34;
@@ -13584,7 +13583,7 @@ attr(,&#34;class&#34;)
 
 <div class="output_subarea output_stream output_stderr output_text">
 <pre>┌ Warning: RCall.jl: `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
-└ @ RCall /Users/huazhou/.julia/packages/RCall/g7dhB/src/io.jl:113
+└ @ RCall /Users/huazhou/.julia/packages/RCall/eRsxl/src/io.jl:160
 </pre>
 </div>
 </div>
@@ -13620,8 +13619,8 @@ attr(,&#34;class&#34;)
 
 <div class="output_text output_subarea output_execute_result">
 <pre>RObject{RealSxp}
- [1]  2.113069911 -1.682524682 -0.001947635 -0.188793705 -0.015248555
- [6] -1.076648574  1.077374336  1.274972800 -0.380181292  0.039603064
+ [1] -0.83734326 -0.16244882 -0.53386584  0.03062349 -1.14904806 -0.36050170
+ [7] -0.83158464  1.37432977  1.16622090 -1.30914026
 </pre>
 </div>
 
@@ -13656,17 +13655,17 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>10-element Array{Float64,1}:
-  2.113069910576006
- -1.6825246817294395
- -0.0019476347548470132
- -0.18879370539048243
- -0.015248555015719784
- -1.0766485735456024
-  1.07737433553574
-  1.2749727997552491
- -0.3801812920432254
-  0.039603063609110235</pre>
+<pre>10-element Vector{Float64}:
+ -0.8373432631464276
+ -0.16244882310038694
+ -0.5338658403287165
+  0.030623493644204455
+ -1.1490480583873917
+ -0.3605016988542188
+ -0.8315846363650633
+  1.3743297702204695
+  1.1662208994325272
+ -1.3091402643464618</pre>
 </div>
 
 </div>
@@ -13976,7 +13975,7 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>5-element Array{Float64,1}:
+<pre>5-element Vector{Float64}:
  0.0
  0.0
  0.0
@@ -14015,7 +14014,7 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>5-element Array{Int64,1}:
+<pre>5-element Vector{Int64}:
  0
  0
  0
@@ -14054,7 +14053,7 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>5×3 Array{Float64,2}:
+<pre>5×3 Matrix{Float64}:
  0.0  0.0  0.0
  0.0  0.0  0.0
  0.0  0.0  0.0
@@ -14093,7 +14092,7 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>5×3 Array{Float64,2}:
+<pre>5×3 Matrix{Float64}:
  1.0  1.0  1.0
  1.0  1.0  1.0
  1.0  1.0  1.0
@@ -14132,12 +14131,12 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>5×3 Array{Float64,2}:
- 5.0e-324      5.0e-324  0.0
- 6.0e-323      0.0       0.0
- 1.0e-323      0.0       0.0
- 2.26291e-314  0.0       0.0
- 0.0           0.0       0.0</pre>
+<pre>5×3 Matrix{Float64}:
+ 6.4e-323      2.29853e-314  7.4e-323
+ 5.0e-324      1.14e-322     2.29853e-314
+ 2.29853e-314  2.0e-323      5.6e-322
+ 1.1e-322      2.29853e-314  8.4e-323
+ 2.0e-323      5.34e-322     2.29853e-314</pre>
 </div>
 
 </div>
@@ -14171,7 +14170,7 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>5×3 Array{Float64,2}:
+<pre>5×3 Matrix{Float64}:
  0.0  0.0  0.0
  0.0  0.0  0.0
  0.0  0.0  0.0
@@ -14210,7 +14209,7 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>5×3 Array{Float64,2}:
+<pre>5×3 Matrix{Float64}:
  2.5  2.5  2.5
  2.5  2.5  2.5
  2.5  2.5  2.5
@@ -14382,12 +14381,12 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>5×3 Array{Float64,2}:
- 0.507598  0.186048   0.628075
- 0.989433  0.870866   0.22553
- 0.776182  0.189382   0.174717
- 0.883318  0.0313765  0.0643843
- 0.599743  0.234695   0.42736</pre>
+<pre>5×3 Matrix{Float64}:
+ 0.282665  0.555173  0.367866
+ 0.185736  0.918336  0.419538
+ 0.791677  0.95385   0.251626
+ 0.597742  0.052277  0.632388
+ 0.667429  0.31983   0.542718</pre>
 </div>
 
 </div>
@@ -14421,12 +14420,12 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>5×3 Array{Float16,2}:
- 0.06445  0.698     0.6523
- 0.251    0.3008    0.7363
- 0.621    0.3223    0.99
- 0.5      0.000977  0.7666
- 0.1201   0.542     0.11914</pre>
+<pre>5×3 Matrix{Float16}:
+ 0.2412  0.495    0.5674
+ 0.9316  0.04004  0.2354
+ 0.3955  0.754    0.874
+ 0.885   0.911    0.3467
+ 0.8916  0.463    0.95</pre>
 </div>
 
 </div>
@@ -14460,12 +14459,12 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>5×3 Array{Int64,2}:
- 3  3  1
- 5  3  2
- 3  4  2
- 1  4  5
- 1  5  1</pre>
+<pre>5×3 Matrix{Int64}:
+ 3  3  4
+ 3  3  2
+ 3  3  5
+ 4  1  5
+ 2  2  1</pre>
 </div>
 
 </div>
@@ -14499,12 +14498,12 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>5×3 Array{Float64,2}:
-  0.868721    1.07412    1.14506
-  0.352555   -1.0598     0.132082
-  0.51563     0.517356  -0.936765
- -0.0663545   0.162099   1.48518
- -0.0847069   1.88382    0.888104</pre>
+<pre>5×3 Matrix{Float64}:
+ -1.56216   -0.816428  -0.765361
+  1.2197    -1.7785     0.958395
+ -2.11773   -1.02492   -0.859672
+ -1.4864     0.724283  -0.881499
+ -0.744315   0.682372  -1.56241</pre>
 </div>
 
 </div>
@@ -14637,7 +14636,7 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>StepRange{Int64,Int64}</pre>
+<pre>StepRange{Int64, Int64}</pre>
 </div>
 
 </div>
@@ -14671,7 +14670,7 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>10-element Array{Int64,1}:
+<pre>10-element Vector{Int64}:
   1
   2
   3
@@ -14715,7 +14714,7 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>10-element Array{Int64,1}:
+<pre>10-element Vector{Int64}:
   1
   2
   3
@@ -14759,7 +14758,7 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>10-element Array{Float64,1}:
+<pre>10-element Vector{Float64}:
   1.0
   2.0
   3.0
@@ -14803,7 +14802,7 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>10-element Array{Float64,1}:
+<pre>10-element Vector{Float64}:
   1.0
   2.0
   3.0
@@ -14860,12 +14859,12 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>5×3 Array{Float64,2}:
- -0.0679719  -0.499419     0.464304
- -0.51311     0.391731    -0.276571
-  1.51131    -1.37069      0.378619
-  1.25128     1.97676     -0.699069
-  0.0620681   0.00853839   1.42408</pre>
+<pre>5×3 Matrix{Float64}:
+ -0.852603   1.40597   -0.526615
+ -1.02119   -0.624405   0.42278
+  0.18655   -0.749773  -0.663625
+ -0.496006   0.904679  -1.45513
+ -0.715907  -0.46227    1.58076</pre>
 </div>
 
 </div>
@@ -15039,12 +15038,12 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>5×5 Array{Float64,2}:
- -0.680602   0.612964    0.0529561   0.332952  -0.907096
- -2.17088   -0.713974    0.104878    1.60923   -1.02306
-  0.901428  -0.526219    0.29907    -0.254599  -1.16023
-  0.108891  -2.5805     -1.36034     0.462398  -0.584862
-  1.42368    0.0481646   0.544287    0.178462  -0.278758</pre>
+<pre>5×5 Matrix{Float64}:
+  0.362527    2.29075    -0.271989  -0.939448   1.32434
+  0.290263   -0.244625    1.48122   -0.407106   0.187583
+  0.0532083   1.47746     0.194896  -1.54202    1.04127
+ -0.377648    0.767421    0.395346   1.32452   -2.28899
+  1.32519     0.0714717  -0.615879  -1.26219   -0.203639</pre>
 </div>
 
 </div>
@@ -15078,12 +15077,12 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>5-element Array{Float64,1}:
- -0.6806017015112786
- -2.170878023180469
-  0.9014281956035037
-  0.10889141932478424
-  1.423675222437071</pre>
+<pre>5-element Vector{Float64}:
+  0.3625268234137542
+  0.2902631483912016
+  0.05320830521447011
+ -0.3776479291194459
+  1.325192246447066</pre>
 </div>
 
 </div>
@@ -15117,12 +15116,12 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>5-element Array{Float64,1}:
- -0.6806017015112786
-  0.6129643293403908
-  0.05295607589387902
-  0.33295206179339176
- -0.907095749058918</pre>
+<pre>5-element Vector{Float64}:
+  0.3625268234137542
+  2.290750641291181
+ -0.27198872245808675
+ -0.9394476709801474
+  1.3243423371273655</pre>
 </div>
 
 </div>
@@ -15156,9 +15155,9 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>2×2 Array{Float64,2}:
-  0.612964  0.0529561
- -0.713974  0.104878</pre>
+<pre>2×2 Matrix{Float64}:
+  2.29075   -0.271989
+ -0.244625   1.48122</pre>
 </div>
 
 </div>
@@ -15192,9 +15191,9 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>2×2 view(::Array{Float64,2}, 1:2, 2:3) with eltype Float64:
-  0.612964  0.0529561
- -0.713974  0.104878</pre>
+<pre>2×2 view(::Matrix{Float64}, 1:2, 2:3) with eltype Float64:
+  2.29075   -0.271989
+ -0.244625   1.48122</pre>
 </div>
 
 </div>
@@ -15228,9 +15227,9 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>2×2 view(::Array{Float64,2}, 1:2, 2:3) with eltype Float64:
-  0.612964  0.0529561
- -0.713974  0.104878</pre>
+<pre>2×2 view(::Matrix{Float64}, 1:2, 2:3) with eltype Float64:
+  2.29075   -0.271989
+ -0.244625   1.48122</pre>
 </div>
 
 </div>
@@ -15265,12 +15264,12 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>5×5 Array{Float64,2}:
- -0.680602   0.612964    0.0529561   0.332952  -0.907096
- -2.17088   -0.713974    0.0         1.60923   -1.02306
-  0.901428  -0.526219    0.29907    -0.254599  -1.16023
-  0.108891  -2.5805     -1.36034     0.462398  -0.584862
-  1.42368    0.0481646   0.544287    0.178462  -0.278758</pre>
+<pre>5×5 Matrix{Float64}:
+  0.362527    2.29075    -0.271989  -0.939448   1.32434
+  0.290263   -0.244625    0.0       -0.407106   0.187583
+  0.0532083   1.47746     0.194896  -1.54202    1.04127
+ -0.377648    0.767421    0.395346   1.32452   -2.28899
+  1.32519     0.0714717  -0.615879  -1.26219   -0.203639</pre>
 </div>
 
 </div>
@@ -15304,12 +15303,12 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>5×5 Array{Float64,2}:
- -0.680602   0.612964    0.0529561   0.332952  -0.907096
- -2.17088   -0.713974    0.0         1.60923   -1.02306
-  0.901428  -0.526219    0.29907    -0.254599  -1.16023
-  0.108891  -2.5805     -1.36034     0.462398  -0.584862
-  1.42368    0.0481646   0.544287    0.178462  -0.278758</pre>
+<pre>5×5 Matrix{Float64}:
+  0.362527    2.29075    -0.271989  -0.939448   1.32434
+  0.290263   -0.244625    0.0       -0.407106   0.187583
+  0.0532083   1.47746     0.194896  -1.54202    1.04127
+ -0.377648    0.767421    0.395346   1.32452   -2.28899
+  1.32519     0.0714717  -0.615879  -1.26219   -0.203639</pre>
 </div>
 
 </div>
@@ -15343,7 +15342,7 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>(Ptr{Float64} @0x00000001165dd490, Ptr{Float64} @0x00000001165dd490)</pre>
+<pre>(Ptr{Float64} @0x000000011ee98710, Ptr{Float64} @0x000000011ee98710)</pre>
 </div>
 
 </div>
@@ -15378,12 +15377,12 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>5×5 Array{Float64,2}:
- 0.0   0.612964    0.0529561   0.332952  -0.907096
- 0.0  -0.713974    0.0         1.60923   -1.02306
- 0.0  -0.526219    0.29907    -0.254599  -1.16023
- 0.0  -2.5805     -1.36034     0.462398  -0.584862
- 0.0   0.0481646   0.544287    0.178462  -0.278758</pre>
+<pre>5×5 Matrix{Float64}:
+ 0.0   2.29075    -0.271989  -0.939448   1.32434
+ 0.0  -0.244625    0.0       -0.407106   0.187583
+ 0.0   1.47746     0.194896  -1.54202    1.04127
+ 0.0   0.767421    0.395346   1.32452   -2.28899
+ 0.0   0.0714717  -0.615879  -1.26219   -0.203639</pre>
 </div>
 
 </div>
@@ -15417,12 +15416,12 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>5×5 Array{Float64,2}:
- 0.0   0.612964    0.0529561   0.332952  -0.907096
- 0.0  -0.713974    0.0         1.60923   -1.02306
- 0.0  -0.526219    0.29907    -0.254599  -1.16023
- 0.0  -2.5805     -1.36034     0.462398  -0.584862
- 0.0   0.0481646   0.544287    0.178462  -0.278758</pre>
+<pre>5×5 Matrix{Float64}:
+ 0.0   2.29075    -0.271989  -0.939448   1.32434
+ 0.0  -0.244625    0.0       -0.407106   0.187583
+ 0.0   1.47746     0.194896  -1.54202    1.04127
+ 0.0   0.767421    0.395346   1.32452   -2.28899
+ 0.0   0.0714717  -0.615879  -1.26219   -0.203639</pre>
 </div>
 
 </div>
@@ -15455,7 +15454,7 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>(Ptr{Float64} @0x00000001165dd490, Ptr{Float64} @0x000000011617e210)</pre>
+<pre>(Ptr{Float64} @0x000000011ee98710, Ptr{Float64} @0x0000000120367410)</pre>
 </div>
 
 </div>
@@ -15496,7 +15495,7 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>3-element Array{Int64,1}:
+<pre>3-element Vector{Int64}:
  1
  2
  3</pre>
@@ -15533,7 +15532,7 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>1×3 Array{Int64,2}:
+<pre>1×3 Matrix{Int64}:
  1  2  3</pre>
 </div>
 
@@ -15568,7 +15567,7 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>([-0.07946595327478304 0.5366206902515758 0.1307347273879236; 1.7279696671313747 1.5241267746650093 1.8724583017639604; … ; -0.12094504677379282 0.14661049014819597 0.34087683471834973; 0.19686837885575847 -0.8183917613580928 -0.30594493713762694], [1.5025239642692927 -0.23889787694491535; -0.285007379207401 -0.2892545052687034; … ; -0.7192051824276394 -0.6163762786059073; 0.0014003052026974325 -1.494586453184664], [-1.01305622020185 -0.4749736708134258 … 0.369403295977617 1.465847037042864; -0.7013788710067068 -0.0674974235178728 … 1.718854144356147 -0.28177382391727085; 0.892424382198883 -0.2568741330038262 … -0.3219874137495171 1.6817461231108182])</pre>
+<pre>([-1.6547799097293292 0.07788148059798042 1.141604658947983; 0.24482330622998213 -0.3418104621982564 1.6880870348908417; … ; -1.13898201682198 -0.18347281862209527 -0.6389056645535104; 0.8776529742332753 0.6272715913539423 -1.0162032197122315], [0.3394054562704206 0.284334396488262; -0.8226273110286079 1.2458530806010972; … ; -0.7856771888023145 -1.5540421037282501; -0.2022265359698363 0.4189939469755521], [-1.048477407687374 -1.0383987652228195 … 1.840103984805786 0.8661447481726756; -0.23836183468760128 -0.49696194922578407 … 0.37821455041674096 1.2571151516202375; 1.472455410493988 2.656994676236939 … 1.704677396221892 -0.36899494821694173])</pre>
 </div>
 
 </div>
@@ -15601,12 +15600,12 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>5×5 Array{Float64,2}:
- -0.079466   0.536621   0.130735   1.50252     -0.238898
-  1.72797    1.52413    1.87246   -0.285007    -0.289255
-  0.793023   1.44182    0.2899    -0.167062    -0.133781
- -0.120945   0.14661    0.340877  -0.719205    -0.616376
-  0.196868  -0.818392  -0.305945   0.00140031  -1.49459</pre>
+<pre>5×5 Matrix{Float64}:
+ -1.65478    0.0778815   1.1416     0.339405   0.284334
+  0.244823  -0.34181     1.68809   -0.822627   1.24585
+  0.244756  -0.383579    1.19808   -1.59726   -0.10018
+ -1.13898   -0.183473   -0.638906  -0.785677  -1.55404
+  0.877653   0.627272   -1.0162    -0.202227   0.418994</pre>
 </div>
 
 </div>
@@ -15639,15 +15638,15 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>8×5 Array{Float64,2}:
- -0.079466   0.536621    0.130735    1.50252     -0.238898
-  1.72797    1.52413     1.87246    -0.285007    -0.289255
-  0.793023   1.44182     0.2899     -0.167062    -0.133781
- -0.120945   0.14661     0.340877   -0.719205    -0.616376
-  0.196868  -0.818392   -0.305945    0.00140031  -1.49459
- -1.01306   -0.474974    0.329336    0.369403     1.46585
- -0.701379  -0.0674974  -0.0956562   1.71885     -0.281774
-  0.892424  -0.256874   -0.131193   -0.321987     1.68175</pre>
+<pre>8×5 Matrix{Float64}:
+ -1.65478    0.0778815   1.1416     0.339405   0.284334
+  0.244823  -0.34181     1.68809   -0.822627   1.24585
+  0.244756  -0.383579    1.19808   -1.59726   -0.10018
+ -1.13898   -0.183473   -0.638906  -0.785677  -1.55404
+  0.877653   0.627272   -1.0162    -0.202227   0.418994
+ -1.04848   -1.0384     -0.922382   1.8401     0.866145
+ -0.238362  -0.496962    1.51703    0.378215   1.25712
+  1.47246    2.65699    -1.295      1.70468   -0.368995</pre>
 </div>
 
 </div>
@@ -15688,12 +15687,12 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>5×3 Array{Float64,2}:
- -1.29425  -0.26645    1.58016
- -2.10411   1.11568   -0.520928
-  1.38334  -1.25722   -0.933339
- -0.64551  -1.33595   -1.02398
- -1.35096   0.170744  -0.30874</pre>
+<pre>5×3 Matrix{Float64}:
+  0.556933   0.698211  0.188425
+ -0.534238   0.590079  1.31862
+  0.294577  -0.148952  1.75607
+ -0.418435   0.665924  1.21144
+ -0.868001   0.886011  0.942236</pre>
 </div>
 
 </div>
@@ -15726,7 +15725,7 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>5×3 Array{Float64,2}:
+<pre>5×3 Matrix{Float64}:
  1.0  1.0  1.0
  1.0  1.0  1.0
  1.0  1.0  1.0
@@ -15764,12 +15763,12 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>5×3 Array{Float64,2}:
- -1.29425  -0.26645    1.58016
- -2.10411   1.11568   -0.520928
-  1.38334  -1.25722   -0.933339
- -0.64551  -1.33595   -1.02398
- -1.35096   0.170744  -0.30874</pre>
+<pre>5×3 Matrix{Float64}:
+  0.556933   0.698211  0.188425
+ -0.534238   0.590079  1.31862
+  0.294577  -0.148952  1.75607
+ -0.418435   0.665924  1.21144
+ -0.868001   0.886011  0.942236</pre>
 </div>
 
 </div>
@@ -15802,12 +15801,12 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>5×3 Array{Float64,2}:
- 0.596983  14.0854     0.400493
- 0.225872   0.803376   3.68506
- 0.522571   0.632673   1.14795
- 2.39991    0.560295   0.953705
- 0.547914  34.3011    10.4909</pre>
+<pre>5×3 Matrix{Float64}:
+  3.224     2.05129  28.1658
+  3.50372   2.87197   0.575119
+ 11.524    45.0721    0.324278
+  5.71141   2.25502   0.681387
+  1.32727   1.27386   1.12637</pre>
 </div>
 
 </div>
@@ -15840,12 +15839,12 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>5×3 Array{Float64,2}:
- -0.962005  -0.263309   0.999956
- -0.861126   0.898211  -0.497685
-  0.982481  -0.951236  -0.803612
- -0.601606  -0.972551  -0.854186
- -0.975934   0.169916  -0.303858</pre>
+<pre>5×3 Matrix{Float64}:
+  0.528585   0.642848  0.187312
+ -0.509186   0.556427  0.968373
+  0.290335  -0.148402  0.982886
+ -0.406331   0.617786  0.936125
+ -0.763038   0.774555  0.808875</pre>
 </div>
 
 </div>
@@ -15885,12 +15884,12 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>5-element Array{Float64,1}:
-  0.22752087078790206
-  0.06040469380904837
-  1.6253138729701064
- -0.5616584061757285
- -0.3163419010248666</pre>
+<pre>5-element Vector{Float64}:
+ -1.1813950744216775
+ -1.1675027284455626
+ -0.8393760418919761
+  0.637638516424218
+  2.4592327407667036</pre>
 </div>
 
 </div>
@@ -15925,7 +15924,7 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>1.7642539564697661</pre>
+<pre>3.1492408026990355</pre>
 </div>
 
 </div>
@@ -15959,7 +15958,7 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>1.7642539564697661</pre>
+<pre>3.1492408026990355</pre>
 </div>
 
 </div>
@@ -15994,7 +15993,7 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>2.3343380467299286</pre>
+<pre>5.9634844136113285</pre>
 </div>
 
 </div>
@@ -16028,7 +16027,7 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>2.3343380467299286</pre>
+<pre>5.9634844136113285</pre>
 </div>
 
 </div>
@@ -16063,12 +16062,12 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>5×2 Array{Float64,2}:
- -0.557807   1.71908
- -0.1451     1.63133
- -0.376415  -1.28496
- -0.952232  -0.634984
- -0.181337   2.31377</pre>
+<pre>5×2 Matrix{Float64}:
+ 0.462928  -0.154503
+ 0.362244   0.757939
+ 0.483273   0.15844
+ 0.202352  -0.274636
+ 0.235669   0.161616</pre>
 </div>
 
 </div>
@@ -16101,10 +16100,10 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>3×3 Array{Float64,2}:
-  0.604551  -0.663884  -0.427566
-  0.171046   0.706153   1.02315
- -0.609924   0.250137   1.49812</pre>
+<pre>3×3 Matrix{Float64}:
+ -0.483314    1.51096     0.499873
+  0.0841042   0.0258667  -0.426673
+ -0.575877   -1.76832     0.157523</pre>
 </div>
 
 </div>
@@ -16138,10 +16137,10 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>3×3 Adjoint{Float64,Array{Float64,2}}:
-  0.604551  0.171046  -0.609924
- -0.663884  0.706153   0.250137
- -0.427566  1.02315    1.49812</pre>
+<pre>3×3 adjoint(::Matrix{Float64}) with eltype Float64:
+ -0.483314   0.0841042  -0.575877
+  1.51096    0.0258667  -1.76832
+  0.499873  -0.426673    0.157523</pre>
 </div>
 
 </div>
@@ -16175,10 +16174,10 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>3-element Array{Float64,1}:
-  0.0977277195001287
- -0.20812044826774032
-  0.7389752569455617</pre>
+<pre>3-element Vector{Float64}:
+ -0.4023288454145317
+  1.216736931643213
+  0.23045483742110634</pre>
 </div>
 
 </div>
@@ -16212,7 +16211,7 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>2.8088199654743127</pre>
+<pre>-0.29992468576939163</pre>
 </div>
 
 </div>
@@ -16245,7 +16244,7 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>0.8667979988514273</pre>
+<pre>0.6470361611359404</pre>
 </div>
 
 </div>
@@ -16321,9 +16320,17 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>10×10 SparseMatrixCSC{Float64,Int64} with 2 stored entries:
-  [4, 4]  =  -0.664695
-  [7, 9]  =  -0.50595</pre>
+<pre>10×10 SparseMatrixCSC{Float64, Int64} with 11 stored entries:
+  ⋅     ⋅         ⋅        ⋅          …   ⋅   0.522094    ⋅         ⋅ 
+  ⋅   -1.8294     ⋅        ⋅              ⋅    ⋅          ⋅         ⋅ 
+  ⋅     ⋅         ⋅        ⋅              ⋅    ⋅          ⋅         ⋅ 
+  ⋅    0.82315  -1.09618  0.00415127      ⋅    ⋅          ⋅         ⋅ 
+  ⋅     ⋅         ⋅        ⋅              ⋅    ⋅        -0.299513   ⋅ 
+  ⋅     ⋅         ⋅        ⋅          …   ⋅    ⋅          ⋅         ⋅ 
+  ⋅     ⋅         ⋅        ⋅              ⋅    ⋅          ⋅        0.122665
+  ⋅     ⋅         ⋅        ⋅              ⋅    ⋅          ⋅        0.278732
+  ⋅     ⋅         ⋅        ⋅              ⋅    ⋅          ⋅         ⋅ 
+  ⋅     ⋅         ⋅        ⋅              ⋅    ⋅        -1.2674     ⋅ </pre>
 </div>
 
 </div>
@@ -16355,12 +16362,12 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>SparseMatrixCSC{Float64,Int64}
+<pre>SparseMatrixCSC{Float64, Int64}
   m: Int64 10
   n: Int64 10
-  colptr: Array{Int64}((11,)) [1, 1, 1, 1, 2, 2, 2, 2, 2, 3, 3]
-  rowval: Array{Int64}((2,)) [4, 7]
-  nzval: Array{Float64}((2,)) [-0.6646953796712529, -0.5059500670834203]
+  colptr: Array{Int64}((11,)) [1, 1, 3, 4, 5, 6, 7, 7, 8, 10, 12]
+  rowval: Array{Int64}((11,)) [2, 4, 4, 4, 1, 3, 1, 5, 10, 7, 8]
+  nzval: Array{Float64}((11,)) [-1.8294031602950958, 0.823149886475841, -1.0961805596886849, 0.00415127223268415, 0.8939416852279677, 0.7683051869076529, 0.5220936171591026, -0.2995127750159116, -1.267400408353231, 0.1226646335779666, 0.278731514589337]
 </pre>
 </div>
 </div>
@@ -16394,17 +16401,17 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>10×10 Array{Float64,2}:
- 0.0  0.0  0.0   0.0       0.0  0.0  0.0  0.0   0.0      0.0
- 0.0  0.0  0.0   0.0       0.0  0.0  0.0  0.0   0.0      0.0
- 0.0  0.0  0.0   0.0       0.0  0.0  0.0  0.0   0.0      0.0
- 0.0  0.0  0.0  -0.664695  0.0  0.0  0.0  0.0   0.0      0.0
- 0.0  0.0  0.0   0.0       0.0  0.0  0.0  0.0   0.0      0.0
- 0.0  0.0  0.0   0.0       0.0  0.0  0.0  0.0   0.0      0.0
- 0.0  0.0  0.0   0.0       0.0  0.0  0.0  0.0  -0.50595  0.0
- 0.0  0.0  0.0   0.0       0.0  0.0  0.0  0.0   0.0      0.0
- 0.0  0.0  0.0   0.0       0.0  0.0  0.0  0.0   0.0      0.0
- 0.0  0.0  0.0   0.0       0.0  0.0  0.0  0.0   0.0      0.0</pre>
+<pre>10×10 Matrix{Float64}:
+ 0.0   0.0       0.0      0.0         …  0.0  0.522094   0.0       0.0
+ 0.0  -1.8294    0.0      0.0            0.0  0.0        0.0       0.0
+ 0.0   0.0       0.0      0.0            0.0  0.0        0.0       0.0
+ 0.0   0.82315  -1.09618  0.00415127     0.0  0.0        0.0       0.0
+ 0.0   0.0       0.0      0.0            0.0  0.0       -0.299513  0.0
+ 0.0   0.0       0.0      0.0         …  0.0  0.0        0.0       0.0
+ 0.0   0.0       0.0      0.0            0.0  0.0        0.0       0.122665
+ 0.0   0.0       0.0      0.0            0.0  0.0        0.0       0.278732
+ 0.0   0.0       0.0      0.0            0.0  0.0        0.0       0.0
+ 0.0   0.0       0.0      0.0            0.0  0.0       -1.2674    0.0</pre>
 </div>
 
 </div>
@@ -16438,9 +16445,17 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>10×10 SparseMatrixCSC{Float64,Int64} with 2 stored entries:
-  [4, 4]  =  -0.664695
-  [7, 9]  =  -0.50595</pre>
+<pre>10×10 SparseMatrixCSC{Float64, Int64} with 11 stored entries:
+  ⋅     ⋅         ⋅        ⋅          …   ⋅   0.522094    ⋅         ⋅ 
+  ⋅   -1.8294     ⋅        ⋅              ⋅    ⋅          ⋅         ⋅ 
+  ⋅     ⋅         ⋅        ⋅              ⋅    ⋅          ⋅         ⋅ 
+  ⋅    0.82315  -1.09618  0.00415127      ⋅    ⋅          ⋅         ⋅ 
+  ⋅     ⋅         ⋅        ⋅              ⋅    ⋅        -0.299513   ⋅ 
+  ⋅     ⋅         ⋅        ⋅          …   ⋅    ⋅          ⋅         ⋅ 
+  ⋅     ⋅         ⋅        ⋅              ⋅    ⋅          ⋅        0.122665
+  ⋅     ⋅         ⋅        ⋅              ⋅    ⋅          ⋅        0.278732
+  ⋅     ⋅         ⋅        ⋅              ⋅    ⋅          ⋅         ⋅ 
+  ⋅     ⋅         ⋅        ⋅              ⋅    ⋅        -1.2674     ⋅ </pre>
 </div>
 
 </div>
@@ -16475,17 +16490,17 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>10-element Array{Float64,1}:
+<pre>10-element Vector{Float64}:
+  1.4160353023870704
+ -1.8294031602950958
+  0.7683051869076529
+ -0.2688794009801598
+ -0.2995127750159116
   0.0
+  0.1226646335779666
+  0.278731514589337
   0.0
-  0.0
- -0.6646953796712529
-  0.0
-  0.0
- -0.5059500670834203
-  0.0
-  0.0
-  0.0</pre>
+ -1.267400408353231</pre>
 </div>
 
 </div>
@@ -16519,7 +16534,7 @@ attr(,&#34;class&#34;)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>-1.1706454467546732</pre>
+<pre>-1.0794591071823714</pre>
 </div>
 
 </div>
@@ -16665,12 +16680,12 @@ Multiple outputs can be returned as a <strong>tuple</strong>, e.g., <code>return
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>5×3 Array{Float64,2}:
- 0.166046    0.301768   0.0391553
- 0.889782    0.0197388  0.95851
- 0.333145    0.203833   0.377999
- 0.465292    0.102677   0.0260136
- 0.0223636  -0.451376   0.899379</pre>
+<pre>5×3 Matrix{Float64}:
+ 0.666198      0.996129  0.00678111
+ 0.507746      0.509861  0.06137
+ 0.138941     -0.190276  0.0175885
+ 0.000123811   0.353891  0.482419
+ 0.872402     -0.412752  0.418323</pre>
 </div>
 
 </div>
@@ -16721,12 +16736,12 @@ Multiple outputs can be returned as a <strong>tuple</strong>, e.g., <code>return
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>5×3 Array{Float64,2}:
- 0.166046    0.301768   0.0391553
- 0.889782    0.0197388  0.95851
- 0.333145    0.203833   0.377999
- 0.465292    0.102677   0.0260136
- 0.0223636  -0.451376   0.899379</pre>
+<pre>5×3 Matrix{Float64}:
+ 0.666198      0.996129  0.00678111
+ 0.507746      0.509861  0.06137
+ 0.138941     -0.190276  0.0175885
+ 0.000123811   0.353891  0.482419
+ 0.872402     -0.412752  0.418323</pre>
 </div>
 
 </div>
@@ -16762,12 +16777,12 @@ Multiple outputs can be returned as a <strong>tuple</strong>, e.g., <code>return
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>5×3 Array{Float64,2}:
- 0.166046    0.301768   0.0391553
- 0.889782    0.0197388  0.95851
- 0.333145    0.203833   0.377999
- 0.465292    0.102677   0.0260136
- 0.0223636  -0.451376   0.899379</pre>
+<pre>5×3 Matrix{Float64}:
+ 0.666198      0.996129  0.00678111
+ 0.507746      0.509861  0.06137
+ 0.138941     -0.190276  0.0175885
+ 0.000123811   0.353891  0.482419
+ 0.872402     -0.412752  0.418323</pre>
 </div>
 
 </div>
@@ -16801,7 +16816,7 @@ Multiple outputs can be returned as a <strong>tuple</strong>, e.g., <code>return
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>4.354325467105569</pre>
+<pre>4.42874636398438</pre>
 </div>
 
 </div>
@@ -16835,7 +16850,7 @@ Multiple outputs can be returned as a <strong>tuple</strong>, e.g., <code>return
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>4.354325467105569</pre>
+<pre>4.42874636398438</pre>
 </div>
 
 </div>
@@ -16878,7 +16893,7 @@ Multiple outputs can be returned as a <strong>tuple</strong>, e.g., <code>return
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>5×3 Array{Float64,2}:
+<pre>5×3 Matrix{Float64}:
   0.14112   -0.756802  -0.958924
  -0.958924  -0.279415   0.656987
   0.656987   0.989358   0.412118
@@ -17006,7 +17021,7 @@ Multiple outputs can be returned as a <strong>tuple</strong>, e.g., <code>return
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>4-element Array{Any,1}:
+<pre>4-element Vector{Any}:
  BigFloat
  Float16
  Float32
@@ -17180,12 +17195,12 @@ Multiple outputs can be returned as a <strong>tuple</strong>, e.g., <code>return
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>5-element Array{Float32,1}:
- -0.69296366
-  0.25062925
- -1.6592916
-  0.022112986
-  0.71937364</pre>
+<pre>5-element Vector{Float32}:
+ -1.5060006
+  1.1262139
+ -1.9763783
+ -0.49160624
+  1.1872923</pre>
 </div>
 
 </div>
@@ -17219,12 +17234,12 @@ Multiple outputs can be returned as a <strong>tuple</strong>, e.g., <code>return
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>5-element Array{Float64,1}:
- -0.6929636597633362
-  0.2506292462348938
- -1.6592916250228882
-  0.02211298607289791
-  0.7193736433982849</pre>
+<pre>5-element Vector{Float64}:
+ -1.5060006380081177
+  1.1262139081954956
+ -1.976378321647644
+ -0.4916062355041504
+  1.1872923374176025</pre>
 </div>
 
 </div>
@@ -17258,12 +17273,12 @@ Multiple outputs can be returned as a <strong>tuple</strong>, e.g., <code>return
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>5-element Array{Float64,1}:
- -0.6929636597633362
-  0.2506292462348938
- -1.6592916250228882
-  0.02211298607289791
-  0.7193736433982849</pre>
+<pre>5-element Vector{Float64}:
+ -1.5060006380081177
+  1.1262139081954956
+ -1.976378321647644
+ -0.4916062355041504
+  1.1872923374176025</pre>
 </div>
 
 </div>
@@ -17332,9 +17347,16 @@ Multiple outputs can be returned as a <strong>tuple</strong>, e.g., <code>return
 InexactError: Int64(1.5)
 
 Stacktrace:
- [1] Int64 at ./float.jl:710 [inlined]
- [2] convert(::Type{Int64}, ::Float64) at ./number.jl:7
- [3] top-level scope at In[100]:1</pre>
+ [1] Int64
+   @ ./float.jl:723 [inlined]
+ [2] convert(#unused#::Type{Int64}, x::Float64)
+   @ Base ./number.jl:7
+ [3] top-level scope
+   @ In[100]:1
+ [4] eval
+   @ ./boot.jl:360 [inlined]
+ [5] include_string(mapexpr::typeof(REPL.softscope), mod::Module, code::String, filename::String)
+   @ Base ./loading.jl:1094</pre>
 </div>
 </div>
 
@@ -17487,11 +17509,20 @@ Stacktrace:
 <pre>
 MethodError: no method matching +(::String, ::String)
 Closest candidates are:
-  +(::Any, ::Any, !Matched::Any, !Matched::Any...) at operators.jl:529
+  +(::Any, ::Any, <span class="ansi-red-intense-fg">::Any</span>, <span class="ansi-red-intense-fg">::Any...</span>) at operators.jl:560
+  +(<span class="ansi-red-intense-fg">::ChainRulesCore.Composite{P, T} where T</span>, ::P) where P at /Users/huazhou/.julia/packages/ChainRulesCore/JWrYo/src/differential_arithmetic.jl:132
+  +(<span class="ansi-red-intense-fg">::ChainRulesCore.AbstractThunk</span>, ::Any) at /Users/huazhou/.julia/packages/ChainRulesCore/JWrYo/src/differential_arithmetic.jl:108
+  ...
 
 Stacktrace:
- [1] g(::String) at ./In[102]:1
- [2] top-level scope at In[104]:1</pre>
+ [1] g(x::String)
+   @ Main ./In[102]:1
+ [2] top-level scope
+   @ In[104]:1
+ [3] eval
+   @ ./boot.jl:360 [inlined]
+ [4] include_string(mapexpr::typeof(REPL.softscope), mod::Module, code::String, filename::String)
+   @ Base ./loading.jl:1094</pre>
 </div>
 </div>
 
@@ -17854,7 +17885,7 @@ g(x) in Main at In[102]:1
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Variables
-  #self#<span class="ansi-cyan-fg">::Core.Compiler.Const(g, false)</span>
+  #self#<span class="ansi-cyan-fg">::Core.Const(g)</span>
   x<span class="ansi-cyan-fg">::Int64</span>
 
 Body<span class="ansi-cyan-fg">::Int64</span>
@@ -17891,7 +17922,7 @@ Body<span class="ansi-cyan-fg">::Int64</span>
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Variables
-  #self#<span class="ansi-cyan-fg">::Core.Compiler.Const(g, false)</span>
+  #self#<span class="ansi-cyan-fg">::Core.Const(g)</span>
   x<span class="ansi-cyan-fg">::Float64</span>
 
 Body<span class="ansi-cyan-fg">::Float64</span>
@@ -17935,15 +17966,14 @@ Body<span class="ansi-cyan-fg">::Float64</span>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>
-;  @ In[106]:1 within `g&#39;
-define i64 @julia_g_19487(i64) {
-top:
-; ┌ @ int.jl:53 within `+&#39;
-   %1 = shl i64 %0, 1
-; └
-  ret i64 %1
-}
+<pre><span class="ansi-black-intense-fg">;  @ In[106]:1 within `g&#39;</span>
+<span class="ansi-magenta-intense-fg">define</span> <span class="ansi-cyan-fg">i64</span> <span class="ansi-yellow-intense-fg">@julia_g_5796</span><span class="ansi-yellow-fg">(</span><span class="ansi-cyan-fg">i64</span> <span class="ansi-magenta-intense-fg">signext</span> %0<span class="ansi-yellow-fg">)</span> <span class="ansi-yellow-fg">{</span>
+<span class="ansi-red-intense-fg">top:</span>
+<span class="ansi-black-intense-fg">; ┌ @ int.jl:87 within `+&#39;</span>
+   %1 = <span class="ansi-cyan-intense-fg ansi-bold">shl</span> <span class="ansi-cyan-fg">i64</span> %0, <span class="ansi-yellow-fg">1</span>
+<span class="ansi-black-intense-fg">; └</span>
+  <span class="ansi-cyan-intense-fg ansi-bold">ret</span> <span class="ansi-cyan-fg">i64</span> %1
+<span class="ansi-yellow-fg">}</span>
 </pre>
 </div>
 </div>
@@ -17974,15 +18004,14 @@ top:
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>
-;  @ In[105]:1 within `g&#39;
-define double @julia_g_19488(double) {
-top:
-; ┌ @ float.jl:401 within `+&#39;
-   %1 = fadd double %0, %0
-; └
-  ret double %1
-}
+<pre><span class="ansi-black-intense-fg">;  @ In[105]:1 within `g&#39;</span>
+<span class="ansi-magenta-intense-fg">define</span> <span class="ansi-cyan-fg">double</span> <span class="ansi-yellow-intense-fg">@julia_g_5819</span><span class="ansi-yellow-fg">(</span><span class="ansi-cyan-fg">double</span> %0<span class="ansi-yellow-fg">)</span> <span class="ansi-yellow-fg">{</span>
+<span class="ansi-red-intense-fg">top:</span>
+<span class="ansi-black-intense-fg">; ┌ @ float.jl:326 within `+&#39;</span>
+   %1 = <span class="ansi-cyan-intense-fg ansi-bold">fadd</span> <span class="ansi-cyan-fg">double</span> %0, %0
+<span class="ansi-black-intense-fg">; └</span>
+  <span class="ansi-cyan-intense-fg ansi-bold">ret</span> <span class="ansi-cyan-fg">double</span> %1
+<span class="ansi-yellow-fg">}</span>
 </pre>
 </div>
 </div>
@@ -18028,14 +18057,13 @@ top:
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>	.section	__TEXT,__text,regular,pure_instructions
-; ┌ @ In[106]:1 within `g&#39;
-; │┌ @ In[106]:1 within `+&#39;
-	leaq	(%rdi,%rdi), %rax
-; │└
-	retq
-	nopw	%cs:(%rax,%rax)
-	nop
-; └
+<span class="ansi-black-intense-fg">; ┌ @ In[106]:1 within `g&#39;</span>
+<span class="ansi-black-intense-fg">; │┌ @ int.jl:87 within `+&#39;</span>
+	<span class="ansi-cyan-intense-fg ansi-bold">leaq</span>	<span class="ansi-yellow-fg">(</span>%rdi,%rdi<span class="ansi-yellow-fg">)</span>, %rax
+<span class="ansi-black-intense-fg">; │└</span>
+	<span class="ansi-cyan-intense-fg ansi-bold">retq</span>
+	<span class="ansi-cyan-intense-fg ansi-bold">nopw</span>	%cs:<span class="ansi-yellow-fg">(</span>%rax,%rax<span class="ansi-yellow-fg">)</span>
+<span class="ansi-black-intense-fg">; └</span>
 </pre>
 </div>
 </div>
@@ -18067,14 +18095,13 @@ top:
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>	.section	__TEXT,__text,regular,pure_instructions
-; ┌ @ In[105]:1 within `g&#39;
-; │┌ @ In[105]:1 within `+&#39;
-	vaddsd	%xmm0, %xmm0, %xmm0
-; │└
-	retq
-	nopw	%cs:(%rax,%rax)
-	nop
-; └
+<span class="ansi-black-intense-fg">; ┌ @ In[105]:1 within `g&#39;</span>
+<span class="ansi-black-intense-fg">; │┌ @ float.jl:326 within `+&#39;</span>
+	<span class="ansi-cyan-intense-fg ansi-bold">vaddsd</span>	%xmm0, %xmm0, %xmm0
+<span class="ansi-black-intense-fg">; │└</span>
+	<span class="ansi-cyan-intense-fg ansi-bold">retq</span>
+	<span class="ansi-cyan-intense-fg ansi-bold">nopw</span>	%cs:<span class="ansi-yellow-fg">(</span>%rax,%rax<span class="ansi-yellow-fg">)</span>
+<span class="ansi-black-intense-fg">; └</span>
 </pre>
 </div>
 </div>
@@ -18125,7 +18152,7 @@ top:
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>  0.034518 seconds (5.43 k allocations: 251.211 KiB)
+<pre>  0.037545 seconds (4.36 k allocations: 228.751 KiB, 20.63% compilation time)
 </pre>
 </div>
 </div>
@@ -18169,7 +18196,7 @@ top:
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>  0.025372 seconds (1 allocation: 16 bytes)
+<pre>  0.025799 seconds (1 allocation: 16 bytes)
 </pre>
 </div>
 </div>
@@ -18229,12 +18256,12 @@ top:
   memory estimate:  0 bytes
   allocs estimate:  0
   --------------
-  minimum time:     22.857 ms (0.00% GC)
-  median time:      24.148 ms (0.00% GC)
-  mean time:        24.326 ms (0.00% GC)
-  maximum time:     28.404 ms (0.00% GC)
+  minimum time:     24.738 ms (0.00% GC)
+  median time:      25.089 ms (0.00% GC)
+  mean time:        25.485 ms (0.00% GC)
+  maximum time:     32.889 ms (0.00% GC)
   --------------
-  samples:          206
+  samples:          197
   evals/sample:     1</pre>
 </div>
 
@@ -18280,43 +18307,32 @@ top:
 <div class="output_subarea output_stream output_stdout output_text">
 <pre> Count  Overhead File                    Line Function
  =====  ======== ====                    ==== ========
-  1450         0 In[118]                    5 tally(::Array{Float64,1})
-     1         1 @Base/abstractdict.jl    638 _oidd_nextind
-     1         0 @Base/abstractdict.jl    641 iterate
-     2         0 @Base/array.jl           394 getindex
-  1450         0 @Base/array.jl           763 iterate
-     1         0 @Base/array.jl           914 push!
-     1         1 @Base/array.jl           825 setindex!
-     2         2 @Base/boot.jl            405 Array
-     2         0 @Base/boot.jl            424 Array
-  1594       138 @Base/boot.jl            331 eval
-     1         0 .../inferenceresult.jl    12 InferenceResult
-     1         1 .../inferenceresult.jl    64 matching_cache_argtypes(::Core....
-     1         0 ...r/inferencestate.jl   106 Core.Compiler.InferenceState(::...
-     1         0 ...r/inferencestate.jl   116 Core.Compiler.InferenceState(::...
-     3         0 ...ompiler/optimize.jl   169 optimize(::Core.Compiler.Optimi...
-     2         0 ...ler/ssair/driver.jl   107 just_construct_ssa(::Core.CodeI...
-     2         0 ...ler/ssair/driver.jl   112 run_passes(::Core.CodeInfo, ::I...
-     1         0 ...ler/ssair/driver.jl   121 run_passes(::Core.CodeInfo, ::I...
-     1         0 ...ler/ssair/passes.jl   725 getfield_elim_pass!(::Core.Comp...
-     1         0 ...r/ssair/slot2ssa.jl   595 construct_ssa!(::Core.CodeInfo,...
-     1         0 ...r/ssair/slot2ssa.jl   868 construct_ssa!(::Core.CodeInfo,...
-     1         0 ...r/ssair/slot2ssa.jl   378 domsort_ssa!(::Core.Compiler.IR...
-     1         1 ...mpiler/typeinfer.jl   126 cache_result(::Core.Compiler.In...
-     3         0 ...mpiler/typeinfer.jl    33 typeinf(::Core.Compiler.Inferen...
-     1         0 ...mpiler/typeinfer.jl    67 typeinf(::Core.Compiler.Inferen...
-     2         0 ...mpiler/typeinfer.jl   572 typeinf_ext(::Core.MethodInstan...
-     4         0 ...mpiler/typeinfer.jl   574 typeinf_ext(::Core.MethodInstan...
-     6         0 ...mpiler/typeinfer.jl   605 typeinf_ext(::Core.MethodInstan...
-  1594         0 @Base/essentials.jl      712 #invokelatest#1
-  1594         0 @Base/essentials.jl      711 invokelatest
-  1450      1450 @Base/int.jl             409 &lt;
-  1450         0 @Base/int.jl             416 &lt;
-  1594         0 @Base/task.jl            358 (::IJulia.var&#34;#15#18&#34;)()
-  1594         0 ...ia/src/eventloop.jl     8 eventloop(::ZMQ.Socket)
-  1594         0 .../execute_request.jl    67 execute_request(::ZMQ.Socket, :...
-  1594         0 .../SoftGlobalScope.jl   218 softscope_include_string(::Modu...
-Total snapshots: 6409
+    20         0 In[118]                    5 tally(x::Vector{Float64})
+    20         0 @Base/array.jl           777 iterate
+     1         1 @Base/boot.jl            448 Array
+     1         0 @Base/boot.jl            462 Array
+    22         1 @Base/boot.jl            360 eval
+     1         0 ...ompiler/optimize.jl   272 optimize
+     1         0 ...ler/ssair/driver.jl   133 run_passes(ci::Core.CodeInfo, n...
+     1         0 ...ompiler/ssair/ir.jl   537 IncrementalCompact
+     1         0 ...ompiler/ssair/ir.jl   541 Core.Compiler.IncrementalCompac...
+     1         0 ...ompiler/ssair/ir.jl   164 Core.Compiler.InstructionStream...
+     1         0 ...ler/ssair/passes.jl   517 getfield_elim_pass!(ir::Core.Co...
+     1         0 ...mpiler/typeinfer.jl   244 _typeinf(interp::Core.Compiler....
+     1         0 ...mpiler/typeinfer.jl   209 typeinf(interp::Core.Compiler.N...
+     1         0 ...mpiler/typeinfer.jl   892 typeinf_ext(interp::Core.Compil...
+     1         0 ...mpiler/typeinfer.jl   921 typeinf_ext_toplevel(mi::Core.M...
+     1         0 ...mpiler/typeinfer.jl   925 typeinf_ext_toplevel(interp::Co...
+    22         0 @Base/essentials.jl      708 #invokelatest#2
+    22         0 @Base/essentials.jl      706 invokelatest
+    20        20 @Base/int.jl             441 &lt;
+    20         0 @Base/int.jl             448 &lt;
+    22         0 @Base/loading.jl        1094 include_string(mapexpr::typeof(...
+    22         0 @Base/task.jl            406 (::IJulia.var&#34;#15#18&#34;)()
+    22         0 ...ia/src/eventloop.jl     8 eventloop(socket::ZMQ.Socket)
+    22         0 .../execute_request.jl    67 execute_request(socket::ZMQ.Soc...
+    22         0 .../SoftGlobalScope.jl    65 softscope_include_string(m::Mod...
+Total snapshots: 88
 </pre>
 </div>
 </div>
@@ -18361,26 +18377,26 @@ Total snapshots: 6409
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Variables
-  #self#<span class="ansi-cyan-fg">::Core.Compiler.Const(tally, false)</span>
-  x<span class="ansi-cyan-fg">::Array{Float64,1}</span>
+  #self#<span class="ansi-cyan-fg">::Core.Const(tally)</span>
+  x<span class="ansi-cyan-fg">::Vector{Float64}</span>
+  @_3<span class="ansi-yellow-intense-fg ansi-bold">::Union{Nothing, Tuple{Float64, Int64}}</span>
   s<span class="ansi-cyan-fg">::Float64</span>
-  @_4<span class="ansi-yellow-intense-fg ansi-bold">::Union{Nothing, Tuple{Float64,Int64}}</span>
   v<span class="ansi-cyan-fg">::Float64</span>
 
 Body<span class="ansi-cyan-fg">::Float64</span>
-<span class="ansi-black-intense-fg">1 ─</span> %1  = Main.eltype(x)<span class="ansi-cyan-fg">::Core.Compiler.Const(Float64, false)</span>
+<span class="ansi-black-intense-fg">1 ─</span> %1  = Main.eltype(x)<span class="ansi-cyan-fg">::Core.Const(Float64)</span>
 <span class="ansi-black-intense-fg">│  </span>       (s = Main.zero(%1))
-<span class="ansi-black-intense-fg">│  </span> %3  = x<span class="ansi-cyan-fg">::Array{Float64,1}</span>
-<span class="ansi-black-intense-fg">│  </span>       (@_4 = Base.iterate(%3))
-<span class="ansi-black-intense-fg">│  </span> %5  = (@_4 === nothing)<span class="ansi-cyan-fg">::Bool</span>
+<span class="ansi-black-intense-fg">│  </span> %3  = x<span class="ansi-cyan-fg">::Vector{Float64}</span>
+<span class="ansi-black-intense-fg">│  </span>       (@_3 = Base.iterate(%3))
+<span class="ansi-black-intense-fg">│  </span> %5  = (@_3 === nothing)<span class="ansi-cyan-fg">::Bool</span>
 <span class="ansi-black-intense-fg">│  </span> %6  = Base.not_int(%5)<span class="ansi-cyan-fg">::Bool</span>
 <span class="ansi-black-intense-fg">└──</span>       goto #4 if not %6
-<span class="ansi-black-intense-fg">2 ┄</span> %8  = @_4::Tuple{Float64,Int64}<span class="ansi-cyan-fg">::Tuple{Float64,Int64}</span>
+<span class="ansi-black-intense-fg">2 ┄</span> %8  = @_3::Tuple{Float64, Int64}<span class="ansi-cyan-fg">::Tuple{Float64, Int64}</span>
 <span class="ansi-black-intense-fg">│  </span>       (v = Core.getfield(%8, 1))
 <span class="ansi-black-intense-fg">│  </span> %10 = Core.getfield(%8, 2)<span class="ansi-cyan-fg">::Int64</span>
 <span class="ansi-black-intense-fg">│  </span>       (s = s + v)
-<span class="ansi-black-intense-fg">│  </span>       (@_4 = Base.iterate(%3, %10))
-<span class="ansi-black-intense-fg">│  </span> %13 = (@_4 === nothing)<span class="ansi-cyan-fg">::Bool</span>
+<span class="ansi-black-intense-fg">│  </span>       (@_3 = Base.iterate(%3, %10))
+<span class="ansi-black-intense-fg">│  </span> %13 = (@_3 === nothing)<span class="ansi-cyan-fg">::Bool</span>
 <span class="ansi-black-intense-fg">│  </span> %14 = Base.not_int(%13)<span class="ansi-cyan-fg">::Bool</span>
 <span class="ansi-black-intense-fg">└──</span>       goto #4 if not %14
 <span class="ansi-black-intense-fg">3 ─</span>       goto #2
@@ -18416,64 +18432,68 @@ Body<span class="ansi-cyan-fg">::Float64</span>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>
-;  @ In[118]:3 within `tally&#39;
-define double @julia_tally_19666(%jl_value_t addrspace(10)* nonnull align 16 dereferenceable(40)) {
-top:
-;  @ In[118]:4 within `tally&#39;
-; ┌ @ array.jl:763 within `iterate&#39; @ array.jl:763
-; │┌ @ array.jl:221 within `length&#39;
-    %1 = addrspacecast %jl_value_t addrspace(10)* %0 to %jl_value_t addrspace(11)*
-    %2 = bitcast %jl_value_t addrspace(11)* %1 to %jl_array_t addrspace(11)*
-    %3 = getelementptr inbounds %jl_array_t, %jl_array_t addrspace(11)* %2, i64 0, i32 1
-    %4 = load i64, i64 addrspace(11)* %3, align 8
-; │└
-   %5 = icmp slt i64 %4, 1
-   br i1 %5, label %L43, label %L18
+<pre><span class="ansi-black-intense-fg">;  @ In[118]:2 within `tally&#39;</span>
+<span class="ansi-magenta-intense-fg">define</span> <span class="ansi-cyan-fg">double</span> <span class="ansi-yellow-intense-fg">@julia_tally_6447</span><span class="ansi-yellow-fg">(</span><span class="ansi-yellow-fg">{</span><span class="ansi-yellow-fg">}</span>* <span class="ansi-magenta-intense-fg">nonnull</span> <span class="ansi-magenta-intense-fg">align</span> <span class="ansi-yellow-fg">16</span> <span class="ansi-magenta-intense-fg">dereferenceable</span><span class="ansi-yellow-fg">(</span><span class="ansi-yellow-fg">40</span><span class="ansi-yellow-fg">)</span> %0<span class="ansi-yellow-fg">)</span> <span class="ansi-yellow-fg">{</span>
+<span class="ansi-red-intense-fg">top:</span>
+<span class="ansi-black-intense-fg">;  @ In[118]:4 within `tally&#39;</span>
+<span class="ansi-black-intense-fg">; ┌ @ array.jl:777 within `iterate&#39; @ array.jl:777</span>
+<span class="ansi-black-intense-fg">; │┌ @ array.jl:197 within `length&#39;</span>
+    %1 = <span class="ansi-cyan-intense-fg ansi-bold">bitcast</span> <span class="ansi-yellow-fg">{</span><span class="ansi-yellow-fg">}</span>* %0 <span class="ansi-magenta-intense-fg">to</span> <span class="ansi-yellow-fg">{</span> <span class="ansi-cyan-fg">i8</span>*, <span class="ansi-cyan-fg">i64</span>, <span class="ansi-cyan-fg">i16</span>, <span class="ansi-cyan-fg">i16</span>, <span class="ansi-cyan-fg">i32</span> <span class="ansi-yellow-fg">}</span>*
+    %2 = <span class="ansi-cyan-intense-fg ansi-bold">getelementptr</span> <span class="ansi-magenta-intense-fg">inbounds</span> <span class="ansi-yellow-fg">{</span> <span class="ansi-cyan-fg">i8</span>*, <span class="ansi-cyan-fg">i64</span>, <span class="ansi-cyan-fg">i16</span>, <span class="ansi-cyan-fg">i16</span>, <span class="ansi-cyan-fg">i32</span> <span class="ansi-yellow-fg">}</span>, <span class="ansi-yellow-fg">{</span> <span class="ansi-cyan-fg">i8</span>*, <span class="ansi-cyan-fg">i64</span>, <span class="ansi-cyan-fg">i16</span>, <span class="ansi-cyan-fg">i16</span>, <span class="ansi-cyan-fg">i32</span> <span class="ansi-yellow-fg">}</span>* %1, <span class="ansi-cyan-fg">i64</span> <span class="ansi-yellow-fg">0</span>, <span class="ansi-cyan-fg">i32</span> <span class="ansi-yellow-fg">1</span>
+    %3 = <span class="ansi-cyan-intense-fg ansi-bold">load</span> <span class="ansi-cyan-fg">i64</span>, <span class="ansi-cyan-fg">i64</span>* %2, <span class="ansi-magenta-intense-fg">align</span> <span class="ansi-yellow-fg">8</span>
+<span class="ansi-black-intense-fg">; │└</span>
+<span class="ansi-black-intense-fg">; │┌ @ int.jl:448 within `&lt;&#39; @ int.jl:441</span>
+    %.not = <span class="ansi-cyan-intense-fg ansi-bold">icmp</span> <span class="ansi-cyan-intense-fg ansi-bold">eq</span> <span class="ansi-cyan-fg">i64</span> %3, <span class="ansi-yellow-fg">0</span>
+<span class="ansi-black-intense-fg">; │└</span>
+   <span class="ansi-cyan-intense-fg ansi-bold">br</span> <span class="ansi-cyan-fg">i1</span> %.not, <span class="ansi-cyan-fg">label</span> <span class="ansi-red-intense-fg">%L43</span>, <span class="ansi-cyan-fg">label</span> <span class="ansi-red-intense-fg">%L18</span>
 
-L18:                                              ; preds = %top
-; │┌ @ array.jl:787 within `getindex&#39;
-    %6 = bitcast %jl_value_t addrspace(11)* %1 to double addrspace(13)* addrspace(11)*
-    %7 = load double addrspace(13)*, double addrspace(13)* addrspace(11)* %6, align 8
-; └└
-  %value_phi413 = load double, double addrspace(13)* %7, align 8
-;  @ In[118]:5 within `tally&#39;
-; ┌ @ float.jl:401 within `+&#39;
-   %8 = fadd double %value_phi413, 0.000000e+00
-; └
-; ┌ @ array.jl:763 within `iterate&#39;
-; │┌ @ int.jl:416 within `&lt;&#39; @ int.jl:409
-    %9 = icmp eq i64 %4, 1
-; │└
-   br i1 %9, label %L43, label %L37
+<span class="ansi-red-intense-fg">L18:</span>                                              <span class="ansi-black-intense-fg">; preds = %top</span>
+<span class="ansi-black-intense-fg">; │┌ @ array.jl:801 within `getindex&#39;</span>
+    %4 = <span class="ansi-cyan-intense-fg ansi-bold">bitcast</span> <span class="ansi-yellow-fg">{</span><span class="ansi-yellow-fg">}</span>* %0 <span class="ansi-magenta-intense-fg">to</span> <span class="ansi-cyan-fg">double</span>**
+    %5 = <span class="ansi-cyan-intense-fg ansi-bold">load</span> <span class="ansi-cyan-fg">double</span>*, <span class="ansi-cyan-fg">double</span>** %4, <span class="ansi-magenta-intense-fg">align</span> <span class="ansi-yellow-fg">8</span>
+    %6 = <span class="ansi-cyan-intense-fg ansi-bold">load</span> <span class="ansi-cyan-fg">double</span>, <span class="ansi-cyan-fg">double</span>* %5, <span class="ansi-magenta-intense-fg">align</span> <span class="ansi-yellow-fg">8</span>
+<span class="ansi-black-intense-fg">; └└</span>
+<span class="ansi-black-intense-fg">;  @ In[118]:5 within `tally&#39;</span>
+<span class="ansi-black-intense-fg">; ┌ @ float.jl:326 within `+&#39;</span>
+   %7 = <span class="ansi-cyan-intense-fg ansi-bold">fadd</span> <span class="ansi-cyan-fg">double</span> %6, <span class="ansi-yellow-fg">0.000000e+00</span>
+<span class="ansi-black-intense-fg">; └</span>
+<span class="ansi-black-intense-fg">; ┌ @ array.jl:777 within `iterate&#39;</span>
+<span class="ansi-black-intense-fg">; │┌ @ int.jl:448 within `&lt;&#39; @ int.jl:441</span>
+    %.not1319.not = <span class="ansi-cyan-intense-fg ansi-bold">icmp</span> <span class="ansi-cyan-intense-fg ansi-bold">eq</span> <span class="ansi-cyan-fg">i64</span> %3, <span class="ansi-yellow-fg">1</span>
+<span class="ansi-black-intense-fg">; │└</span>
+   <span class="ansi-cyan-intense-fg ansi-bold">br</span> <span class="ansi-cyan-fg">i1</span> %.not1319.not, <span class="ansi-cyan-fg">label</span> <span class="ansi-red-intense-fg">%L43</span>, <span class="ansi-cyan-fg">label</span> <span class="ansi-red-intense-fg">%L37.lr.ph</span>
 
-L37:                                              ; preds = %L18, %L37
-   %10 = phi i64 [ %value_phi514, %L37 ], [ 1, %L18 ]
-   %11 = phi double [ %14, %L37 ], [ %8, %L18 ]
-   %value_phi514 = phi i64 [ %13, %L37 ], [ 2, %L18 ]
-; │┌ @ array.jl:787 within `getindex&#39;
-    %12 = getelementptr inbounds double, double addrspace(13)* %7, i64 %10
-; │└
-; │┌ @ int.jl:53 within `+&#39;
-    %13 = add i64 %value_phi514, 1
-; └└
-  %value_phi4 = load double, double addrspace(13)* %12, align 8
-;  @ In[118]:5 within `tally&#39;
-; ┌ @ float.jl:401 within `+&#39;
-   %14 = fadd double %11, %value_phi4
-; └
-; ┌ @ array.jl:763 within `iterate&#39;
-; │┌ @ int.jl:416 within `&lt;&#39; @ int.jl:409
-    %15 = icmp ult i64 %value_phi514, %4
-; │└
-   br i1 %15, label %L37, label %L43
+<span class="ansi-red-intense-fg">L37.lr.ph:</span>                                        <span class="ansi-black-intense-fg">; preds = %L18</span>
+   %8 = <span class="ansi-cyan-intense-fg ansi-bold">icmp</span> <span class="ansi-cyan-intense-fg ansi-bold">ugt</span> <span class="ansi-cyan-fg">i64</span> %3, <span class="ansi-yellow-fg">2</span>
+   %umax = <span class="ansi-cyan-intense-fg ansi-bold">select</span> <span class="ansi-cyan-fg">i1</span> %8, <span class="ansi-cyan-fg">i64</span> %3, <span class="ansi-cyan-fg">i64</span> <span class="ansi-yellow-fg">2</span>
+   <span class="ansi-cyan-intense-fg ansi-bold">br</span> <span class="ansi-cyan-fg">label</span> <span class="ansi-red-intense-fg">%L37</span>
 
-L43:                                              ; preds = %L37, %L18, %top
-   %value_phi9 = phi double [ 0.000000e+00, %top ], [ %8, %L18 ], [ %14, %L37 ]
-; └
-;  @ In[118]:7 within `tally&#39;
-  ret double %value_phi9
-}
+<span class="ansi-red-intense-fg">L37:</span>                                              <span class="ansi-black-intense-fg">; preds = %L37, %L37.lr.ph</span>
+   %9 = <span class="ansi-cyan-intense-fg ansi-bold">phi</span> <span class="ansi-cyan-fg">i64</span> <span class="ansi-yellow-fg">[</span> <span class="ansi-yellow-fg">1</span>, <span class="ansi-red-intense-fg">%L37.lr.ph</span> <span class="ansi-yellow-fg">]</span>, <span class="ansi-yellow-fg">[</span> %value_phi420, <span class="ansi-red-intense-fg">%L37</span> <span class="ansi-yellow-fg">]</span>
+   %10 = <span class="ansi-cyan-intense-fg ansi-bold">phi</span> <span class="ansi-cyan-fg">double</span> <span class="ansi-yellow-fg">[</span> %7, <span class="ansi-red-intense-fg">%L37.lr.ph</span> <span class="ansi-yellow-fg">]</span>, <span class="ansi-yellow-fg">[</span> %14, <span class="ansi-red-intense-fg">%L37</span> <span class="ansi-yellow-fg">]</span>
+   %value_phi420 = <span class="ansi-cyan-intense-fg ansi-bold">phi</span> <span class="ansi-cyan-fg">i64</span> <span class="ansi-yellow-fg">[</span> <span class="ansi-yellow-fg">2</span>, <span class="ansi-red-intense-fg">%L37.lr.ph</span> <span class="ansi-yellow-fg">]</span>, <span class="ansi-yellow-fg">[</span> %13, <span class="ansi-red-intense-fg">%L37</span> <span class="ansi-yellow-fg">]</span>
+<span class="ansi-black-intense-fg">; │┌ @ array.jl:801 within `getindex&#39;</span>
+    %11 = <span class="ansi-cyan-intense-fg ansi-bold">getelementptr</span> <span class="ansi-magenta-intense-fg">inbounds</span> <span class="ansi-cyan-fg">double</span>, <span class="ansi-cyan-fg">double</span>* %5, <span class="ansi-cyan-fg">i64</span> %9
+    %12 = <span class="ansi-cyan-intense-fg ansi-bold">load</span> <span class="ansi-cyan-fg">double</span>, <span class="ansi-cyan-fg">double</span>* %11, <span class="ansi-magenta-intense-fg">align</span> <span class="ansi-yellow-fg">8</span>
+<span class="ansi-black-intense-fg">; │└</span>
+<span class="ansi-black-intense-fg">; │┌ @ int.jl:87 within `+&#39;</span>
+    %13 = <span class="ansi-cyan-intense-fg ansi-bold">add</span> <span class="ansi-magenta-intense-fg">nuw</span> <span class="ansi-magenta-intense-fg">nsw</span> <span class="ansi-cyan-fg">i64</span> %value_phi420, <span class="ansi-yellow-fg">1</span>
+<span class="ansi-black-intense-fg">; └└</span>
+<span class="ansi-black-intense-fg">; ┌ @ float.jl:326 within `+&#39;</span>
+   %14 = <span class="ansi-cyan-intense-fg ansi-bold">fadd</span> <span class="ansi-cyan-fg">double</span> %12, %10
+<span class="ansi-black-intense-fg">; └</span>
+<span class="ansi-black-intense-fg">; ┌ @ array.jl:777 within `iterate&#39;</span>
+<span class="ansi-black-intense-fg">; │┌ @ int.jl:448 within `&lt;&#39; @ int.jl:441</span>
+    %exitcond.not = <span class="ansi-cyan-intense-fg ansi-bold">icmp</span> <span class="ansi-cyan-intense-fg ansi-bold">eq</span> <span class="ansi-cyan-fg">i64</span> %value_phi420, %umax
+<span class="ansi-black-intense-fg">; │└</span>
+   <span class="ansi-cyan-intense-fg ansi-bold">br</span> <span class="ansi-cyan-fg">i1</span> %exitcond.not, <span class="ansi-cyan-fg">label</span> <span class="ansi-red-intense-fg">%L43</span>, <span class="ansi-cyan-fg">label</span> <span class="ansi-red-intense-fg">%L37</span>
+
+<span class="ansi-red-intense-fg">L43:</span>                                              <span class="ansi-black-intense-fg">; preds = %L37, %L18, %top</span>
+   %value_phi9 = <span class="ansi-cyan-intense-fg ansi-bold">phi</span> <span class="ansi-cyan-fg">double</span> <span class="ansi-yellow-fg">[</span> <span class="ansi-yellow-fg">0.000000e+00</span>, <span class="ansi-red-intense-fg">%top</span> <span class="ansi-yellow-fg">]</span>, <span class="ansi-yellow-fg">[</span> %7, <span class="ansi-red-intense-fg">%L18</span> <span class="ansi-yellow-fg">]</span>, <span class="ansi-yellow-fg">[</span> %14, <span class="ansi-red-intense-fg">%L37</span> <span class="ansi-yellow-fg">]</span>
+<span class="ansi-black-intense-fg">; └</span>
+<span class="ansi-black-intense-fg">;  @ In[118]:7 within `tally&#39;</span>
+  <span class="ansi-cyan-intense-fg ansi-bold">ret</span> <span class="ansi-cyan-fg">double</span> %value_phi9
+<span class="ansi-yellow-fg">}</span>
 </pre>
 </div>
 </div>
@@ -18505,53 +18525,55 @@ L43:                                              ; preds = %L37, %L18, %top
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>	.section	__TEXT,__text,regular,pure_instructions
-; ┌ @ In[118]:4 within `tally&#39;
-; │┌ @ array.jl:763 within `iterate&#39; @ array.jl:763
-; ││┌ @ In[118]:3 within `length&#39;
-	movq	8(%rdi), %rax
-; ││└
-	testq	%rax, %rax
-	jle	L47
-; ││┌ @ array.jl:787 within `getindex&#39;
-	movq	(%rdi), %rcx
-	vxorpd	%xmm0, %xmm0, %xmm0
-; │└└
-; │ @ In[118]:5 within `tally&#39;
-; │┌ @ float.jl:401 within `+&#39;
-	vaddsd	(%rcx), %xmm0, %xmm0
-; │└
-; │┌ @ array.jl:763 within `iterate&#39;
-; ││┌ @ int.jl:416 within `&lt;&#39; @ int.jl:409
-	cmpq	$1, %rax
-; ││└
-	je	L46
-; └└
-; ┌ @ array.jl within `tally&#39;
-	movl	$1, %edx
-	nop
-; └
-; ┌ @ In[118]:5 within `tally&#39;
-; │┌ @ float.jl:401 within `+&#39;
-L32:
-	vaddsd	(%rcx,%rdx,8), %xmm0, %xmm0
-; │└
-; │┌ @ array.jl:763 within `iterate&#39;
-; ││┌ @ int.jl:416 within `&lt;&#39; @ int.jl:409
-	addq	$1, %rdx
-	cmpq	%rax, %rdx
-; ││└
-	jb	L32
-; │└
-; │ @ In[118]:7 within `tally&#39;
-L46:
-	retq
-L47:
-	vxorps	%xmm0, %xmm0, %xmm0
-; │ @ In[118]:7 within `tally&#39;
-	retq
-	nopw	%cs:(%rax,%rax)
-	nop
-; └
+<span class="ansi-black-intense-fg">; ┌ @ In[118]:4 within `tally&#39;</span>
+<span class="ansi-black-intense-fg">; │┌ @ array.jl:777 within `iterate&#39; @ array.jl:777</span>
+<span class="ansi-black-intense-fg">; ││┌ @ array.jl:197 within `length&#39;</span>
+	<span class="ansi-cyan-intense-fg ansi-bold">movq</span>	<span class="ansi-yellow-fg">8</span><span class="ansi-yellow-fg">(</span>%rdi<span class="ansi-yellow-fg">)</span>, %rdx
+<span class="ansi-black-intense-fg">; ││└</span>
+<span class="ansi-black-intense-fg">; ││┌ @ int.jl:448 within `&lt;&#39; @ int.jl:441</span>
+	<span class="ansi-cyan-intense-fg ansi-bold">testq</span>	%rdx, %rdx
+<span class="ansi-black-intense-fg">; ││└</span>
+	<span class="ansi-cyan-intense-fg ansi-bold">je</span>	<span class="ansi-red-intense-fg">L62</span>
+<span class="ansi-black-intense-fg">; ││┌ @ array.jl:801 within `getindex&#39;</span>
+	<span class="ansi-cyan-intense-fg ansi-bold">movq</span>	<span class="ansi-yellow-fg">(</span>%rdi<span class="ansi-yellow-fg">)</span>, %rax
+	<span class="ansi-cyan-intense-fg ansi-bold">vxorpd</span>	%xmm0, %xmm0, %xmm0
+<span class="ansi-black-intense-fg">; │└└</span>
+<span class="ansi-black-intense-fg">; │ @ In[118]:5 within `tally&#39;</span>
+<span class="ansi-black-intense-fg">; │┌ @ float.jl:326 within `+&#39;</span>
+	<span class="ansi-cyan-intense-fg ansi-bold">vaddsd</span>	<span class="ansi-yellow-fg">(</span>%rax<span class="ansi-yellow-fg">)</span>, %xmm0, %xmm0
+<span class="ansi-black-intense-fg">; │└</span>
+<span class="ansi-black-intense-fg">; │┌ @ array.jl:777 within `iterate&#39;</span>
+<span class="ansi-black-intense-fg">; ││┌ @ int.jl:448 within `&lt;&#39; @ int.jl:441</span>
+	<span class="ansi-cyan-intense-fg ansi-bold">cmpq</span>	<span class="ansi-yellow-fg">$1</span>, %rdx
+<span class="ansi-black-intense-fg">; ││└</span>
+	<span class="ansi-cyan-intense-fg ansi-bold">je</span>	<span class="ansi-red-intense-fg">L61</span>
+	<span class="ansi-cyan-intense-fg ansi-bold">cmpq</span>	<span class="ansi-yellow-fg">$2</span>, %rdx
+	<span class="ansi-cyan-intense-fg ansi-bold">movl</span>	<span class="ansi-yellow-fg">$2</span>, %ecx
+	<span class="ansi-cyan-intense-fg ansi-bold">cmovaq</span>	%rdx, %rcx
+	<span class="ansi-cyan-intense-fg ansi-bold">movl</span>	<span class="ansi-yellow-fg">$1</span>, %edx
+	<span class="ansi-cyan-intense-fg ansi-bold">nopl</span>	<span class="ansi-yellow-fg">(</span>%rax<span class="ansi-yellow-fg">)</span>
+<span class="ansi-black-intense-fg">; │└</span>
+<span class="ansi-black-intense-fg">; │┌ @ float.jl:326 within `+&#39;</span>
+<span class="ansi-red-intense-fg">L48:</span>
+	<span class="ansi-cyan-intense-fg ansi-bold">vaddsd</span>	<span class="ansi-yellow-fg">(</span>%rax,%rdx,<span class="ansi-yellow-fg">8</span><span class="ansi-yellow-fg">)</span>, %xmm0, %xmm0
+<span class="ansi-black-intense-fg">; │└</span>
+<span class="ansi-black-intense-fg">; │┌ @ array.jl:777 within `iterate&#39;</span>
+<span class="ansi-black-intense-fg">; ││┌ @ int.jl:448 within `&lt;&#39; @ int.jl:441</span>
+	<span class="ansi-cyan-intense-fg ansi-bold">incq</span>	%rdx
+	<span class="ansi-cyan-intense-fg ansi-bold">cmpq</span>	%rdx, %rcx
+<span class="ansi-black-intense-fg">; ││└</span>
+	<span class="ansi-cyan-intense-fg ansi-bold">jne</span>	<span class="ansi-red-intense-fg">L48</span>
+<span class="ansi-black-intense-fg">; │└</span>
+<span class="ansi-black-intense-fg">; │ @ In[118]:7 within `tally&#39;</span>
+<span class="ansi-red-intense-fg">L61:</span>
+	<span class="ansi-cyan-intense-fg ansi-bold">retq</span>
+<span class="ansi-black-intense-fg">; │ @ In[118] within `tally&#39;</span>
+<span class="ansi-red-intense-fg">L62:</span>
+	<span class="ansi-cyan-intense-fg ansi-bold">vxorps</span>	%xmm0, %xmm0, %xmm0
+<span class="ansi-black-intense-fg">; │ @ In[118]:7 within `tally&#39;</span>
+	<span class="ansi-cyan-intense-fg ansi-bold">retq</span>
+	<span class="ansi-cyan-intense-fg ansi-bold">nopw</span>	%cs:<span class="ansi-yellow-fg">(</span>%rax,%rax<span class="ansi-yellow-fg">)</span>
+<span class="ansi-black-intense-fg">; └</span>
 </pre>
 </div>
 </div>

@@ -13126,14 +13126,14 @@ $( document ).ready(function(){
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Julia Version 1.4.0
-Commit b8e9a9ecc6 (2020-03-21 16:36 UTC)
+<pre>Julia Version 1.6.0
+Commit f9720dc2eb (2021-03-24 12:55 UTC)
 Platform Info:
-  OS: macOS (x86_64-apple-darwin18.6.0)
+  OS: macOS (x86_64-apple-darwin19.6.0)
   CPU: Intel(R) Core(TM) i7-6920HQ CPU @ 2.90GHz
   WORD_SIZE: 64
   LIBM: libopenlibm
-  LLVM: libLLVM-8.0.1 (ORCJIT, skylake)
+  LLVM: libLLVM-11.0.1 (ORCJIT, skylake)
 Environment:
   JULIA_EDITOR = code
   JULIA_NUM_THREADS = 4
@@ -13177,7 +13177,7 @@ Environment:
 <ul>
 <li>Data analysis <em>never</em> happens if we do not know how to retrieve data from databases  </li>
 </ul>
-<p><a href="https://ucla-biostat203b-2020winter.github.io/schedule.html">203B (Introduction to Data Science)</a> covers some basics on scripting and database.</p>
+<p><a href="https://ucla-biostat203b-2021winter.github.io/schedule.html">203B (Introduction to Data Science)</a> covers some basics on scripting and database.</p>
 </li>
 </ul>
 
@@ -13288,13 +13288,12 @@ $$</p>
 
 <div class="output_text output_subarea output_execute_result">
 <pre>RObject{VecSxp}
-R version 3.6.2 (2019-12-12)
-Platform: x86_64-apple-darwin15.6.0 (64-bit)
-Running under: macOS Catalina 10.15.3
+R version 4.0.3 (2020-10-10)
+Platform: x86_64-apple-darwin17.0 (64-bit)
+Running under: macOS Big Sur 10.16
 
 Matrix products: default
-BLAS:   /Library/Frameworks/R.framework/Versions/3.6/Resources/lib/libRblas.0.dylib
-LAPACK: /Library/Frameworks/R.framework/Versions/3.6/Resources/lib/libRlapack.dylib
+LAPACK: /Library/Frameworks/R.framework/Versions/4.0/Resources/lib/libRlapack.dylib
 
 locale:
 [1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
@@ -13303,7 +13302,7 @@ attached base packages:
 [1] stats     graphics  grDevices utils     datasets  methods   base     
 
 loaded via a namespace (and not attached):
-[1] compiler_3.6.2
+[1] compiler_4.0.3
 </pre>
 </div>
 
@@ -13413,7 +13412,7 @@ function (N, thin)
 <div class="output_text output_subarea output_execute_result">
 <pre>RObject{RealSxp}
    user  system elapsed 
- 21.894   1.589  23.575 
+ 22.429   1.954  24.562 
 </pre>
 </div>
 
@@ -13427,7 +13426,7 @@ function (N, thin)
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <ul>
-<li>This is a Julia function for the simple Gibbs sampler:</li>
+<li>This is a Julia function for the same Gibbs sampler:</li>
 </ul>
 
 </div>
@@ -13513,7 +13512,7 @@ function (N, thin)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>0.356247839</pre>
+<pre>0.346444283</pre>
 </div>
 
 </div>
@@ -13722,12 +13721,12 @@ function (N, thin)
   memory estimate:  0 bytes
   allocs estimate:  0
   --------------
-  minimum time:     1.068 ms (0.00% GC)
-  median time:      1.157 ms (0.00% GC)
-  mean time:        1.176 ms (0.00% GC)
-  maximum time:     1.869 ms (0.00% GC)
+  minimum time:     1.156 ms (0.00% GC)
+  median time:      1.193 ms (0.00% GC)
+  mean time:        1.220 ms (0.00% GC)
+  maximum time:     1.936 ms (0.00% GC)
   --------------
-  samples:          4241
+  samples:          4094
   evals/sample:     1</pre>
 </div>
 
@@ -13765,7 +13764,7 @@ function (N, thin)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>1.156884</pre>
+<pre>1.1933465</pre>
 </div>
 
 </div>
@@ -13816,7 +13815,7 @@ function (N, thin)
 # A tibble: 1 x 13
   expression   min median `itr/sec` mem_alloc `gc/sec` n_itr  n_gc total_time
   &lt;bch:expr&gt; &lt;bch&gt; &lt;bch:&gt;     &lt;dbl&gt; &lt;bch:byt&gt;    &lt;dbl&gt; &lt;int&gt; &lt;dbl&gt;   &lt;bch:tm&gt;
-1 sum(y)     906µs  979µs      995.        0B        0   498     0      500ms
+1 sum(y)     911µs  962µs     1027.        0B        0   514     0      500ms
 # … with 4 more variables: result &lt;list&gt;, memory &lt;list&gt;, time &lt;list&gt;, gc &lt;list&gt;
 </pre>
 </div>
@@ -13853,7 +13852,7 @@ function (N, thin)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>0.978866000004075</pre>
+<pre>0.9619170000121358</pre>
 </div>
 
 </div>
@@ -13911,7 +13910,7 @@ function (N, thin)
 # A tibble: 1 x 13
   expression    min median `itr/sec` mem_alloc `gc/sec` n_itr  n_gc total_time
   &lt;bch:expr&gt; &lt;bch:&gt; &lt;bch:&gt;     &lt;dbl&gt; &lt;bch:byt&gt;    &lt;dbl&gt; &lt;int&gt; &lt;dbl&gt;   &lt;bch:tm&gt;
-1 sum_r(y)   16.3ms 16.9ms      57.3    12.7KB        0    29     0      506ms
+1 sum_r(y)   14.9ms 15.1ms      65.4    12.7KB        0    33     0      505ms
 # … with 4 more variables: result &lt;list&gt;, memory &lt;list&gt;, time &lt;list&gt;, gc &lt;list&gt;
 </pre>
 </div>
@@ -13948,7 +13947,7 @@ function (N, thin)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>16.864020999989293</pre>
+<pre>15.061760999998342</pre>
 </div>
 
 </div>
@@ -13995,6 +13994,22 @@ function (N, thin)
 
 <div class="output_area">
 
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>In file included from file10f9c1dc78369.cpp:1:
+In file included from /Library/Frameworks/R.framework/Versions/4.0/Resources/library/Rcpp/include/Rcpp.h:57:
+/Library/Frameworks/R.framework/Versions/4.0/Resources/library/Rcpp/include/Rcpp/DataFrame.h:136:18: warning: unused variable &#39;data&#39; [-Wunused-variable]
+            SEXP data = Parent::get__();
+                 ^
+1 warning generated.
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
     <div class="prompt output_prompt">Out[17]:</div>
 
 
@@ -14003,7 +14018,7 @@ function (N, thin)
 <div class="output_text output_subarea output_execute_result">
 <pre>RObject{ClosSxp}
 function (x) 
-.Call(&lt;pointer: 0x14d3cad20&gt;, x)
+.Call(&lt;pointer: 0x148f54c00&gt;, x)
 </pre>
 </div>
 
@@ -14043,7 +14058,7 @@ function (x)
 # A tibble: 1 x 13
   expression     min median `itr/sec` mem_alloc `gc/sec` n_itr  n_gc total_time
   &lt;bch:expr&gt;  &lt;bch:&gt; &lt;bch:&gt;     &lt;dbl&gt; &lt;bch:byt&gt;    &lt;dbl&gt; &lt;int&gt; &lt;dbl&gt;   &lt;bch:tm&gt;
-1 rcpp_sum(y) 1.13ms 1.17ms      843.    2.49KB        0   422     0      501ms
+1 rcpp_sum(y) 1.16ms 1.18ms      822.    2.49KB        0   411     0      500ms
 # … with 4 more variables: result &lt;list&gt;, memory &lt;list&gt;, time &lt;list&gt;, gc &lt;list&gt;
 </pre>
 </div>
@@ -14080,7 +14095,7 @@ function (x)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>1.1647964999923488</pre>
+<pre>1.1809470000230249</pre>
 </div>
 
 </div>
@@ -14113,18 +14128,6 @@ function (x)
 <div class="output_wrapper">
 <div class="output">
 
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stderr output_text">
-<pre>┌ Info: Precompiling PyCall [438e738f-606a-5dbb-bf0a-cddfbfd45ab0]
-└ @ Base loading.jl:1260
-</pre>
-</div>
-</div>
 
 <div class="output_area">
 
@@ -14170,15 +14173,15 @@ function (x)
 
 <div class="output_text output_subarea output_execute_result">
 <pre>BenchmarkTools.Trial: 
-  memory estimate:  352 bytes
-  allocs estimate:  7
+  memory estimate:  336 bytes
+  allocs estimate:  6
   --------------
-  minimum time:     134.547 ms (0.00% GC)
-  median time:      141.002 ms (0.00% GC)
-  mean time:        140.821 ms (0.00% GC)
-  maximum time:     151.273 ms (0.00% GC)
+  minimum time:     72.919 ms (0.00% GC)
+  median time:      74.630 ms (0.00% GC)
+  mean time:        76.239 ms (0.00% GC)
+  maximum time:     125.896 ms (0.00% GC)
   --------------
-  samples:          36
+  samples:          66
   evals/sample:     1</pre>
 </div>
 
@@ -14213,7 +14216,7 @@ function (x)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>141.00172</pre>
+<pre>74.629914</pre>
 </div>
 
 </div>
@@ -14266,15 +14269,15 @@ function (x)
 
 <div class="output_text output_subarea output_execute_result">
 <pre>BenchmarkTools.Trial: 
-  memory estimate:  352 bytes
-  allocs estimate:  7
+  memory estimate:  336 bytes
+  allocs estimate:  6
   --------------
-  minimum time:     183.952 ms (0.00% GC)
-  median time:      204.134 ms (0.00% GC)
-  mean time:        203.615 ms (0.00% GC)
-  maximum time:     215.297 ms (0.00% GC)
+  minimum time:     93.464 ms (0.00% GC)
+  median time:      96.607 ms (0.00% GC)
+  mean time:        97.592 ms (0.00% GC)
+  maximum time:     111.281 ms (0.00% GC)
   --------------
-  samples:          25
+  samples:          52
   evals/sample:     1</pre>
 </div>
 
@@ -14309,7 +14312,7 @@ function (x)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>204.134034</pre>
+<pre>96.6070165</pre>
 </div>
 
 </div>
@@ -14351,7 +14354,7 @@ function (x)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>PyObject &lt;function sum at 0x15a159950&gt;</pre>
+<pre>PyObject &lt;function sum at 0x7f942c344290&gt;</pre>
 </div>
 
 </div>
@@ -14385,13 +14388,13 @@ function (x)
 
 <div class="output_text output_subarea output_execute_result">
 <pre>BenchmarkTools.Trial: 
-  memory estimate:  352 bytes
-  allocs estimate:  7
+  memory estimate:  336 bytes
+  allocs estimate:  6
   --------------
-  minimum time:     308.834 μs (0.00% GC)
-  median time:      333.324 μs (0.00% GC)
-  mean time:        345.477 μs (0.00% GC)
-  maximum time:     947.781 μs (0.00% GC)
+  minimum time:     314.659 μs (0.00% GC)
+  median time:      359.054 μs (0.00% GC)
+  mean time:        385.603 μs (0.00% GC)
+  maximum time:     903.908 μs (0.00% GC)
   --------------
   samples:          10000
   evals/sample:     1</pre>
@@ -14428,7 +14431,7 @@ function (x)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>0.333324</pre>
+<pre>0.359054</pre>
 </div>
 
 </div>
@@ -14475,7 +14478,7 @@ function (x)
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>  0.000420 seconds (1 allocation: 16 bytes)
+<pre>  0.000471 seconds (1 allocation: 16 bytes)
 </pre>
 </div>
 </div>
@@ -14533,10 +14536,10 @@ function (x)
   memory estimate:  0 bytes
   allocs estimate:  0
   --------------
-  minimum time:     269.863 μs (0.00% GC)
-  median time:      304.995 μs (0.00% GC)
-  mean time:        312.732 μs (0.00% GC)
-  maximum time:     774.444 μs (0.00% GC)
+  minimum time:     262.405 μs (0.00% GC)
+  median time:      299.495 μs (0.00% GC)
+  mean time:        314.795 μs (0.00% GC)
+  maximum time:     1.503 ms (0.00% GC)
   --------------
   samples:          10000
   evals/sample:     1</pre>
@@ -14572,7 +14575,7 @@ function (x)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>0.3049955</pre>
+<pre>0.299495</pre>
 </div>
 
 </div>
@@ -14625,12 +14628,12 @@ function (x)
   memory estimate:  0 bytes
   allocs estimate:  0
   --------------
-  minimum time:     1.075 ms (0.00% GC)
-  median time:      1.178 ms (0.00% GC)
-  mean time:        1.188 ms (0.00% GC)
-  maximum time:     1.799 ms (0.00% GC)
+  minimum time:     1.134 ms (0.00% GC)
+  median time:      1.201 ms (0.00% GC)
+  mean time:        1.227 ms (0.00% GC)
+  maximum time:     1.901 ms (0.00% GC)
   --------------
-  samples:          4197
+  samples:          4071
   evals/sample:     1</pre>
 </div>
 
@@ -14664,7 +14667,7 @@ function (x)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>1.178456</pre>
+<pre>1.200629</pre>
 </div>
 
 </div>
@@ -14712,16 +14715,16 @@ function (x)
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>9-element Array{Pair{Any,Any},1}:
-  &#34;Julia builtin&#34; =&gt; 0.3049955
-   &#34;Python numpy&#34; =&gt; 0.333324
-      &#34;R builtin&#34; =&gt; 0.978866000004075
-              &#34;C&#34; =&gt; 1.156884
-         &#34;R Rcpp&#34; =&gt; 1.1647964999923488
-     &#34;Julia loop&#34; =&gt; 1.178456
-         &#34;R loop&#34; =&gt; 16.864020999989293
- &#34;Python builtin&#34; =&gt; 141.00172
-    &#34;Python loop&#34; =&gt; 204.134034</pre>
+<pre>9-element Vector{Pair{Any, Any}}:
+  &#34;Julia builtin&#34; =&gt; 0.299495
+   &#34;Python numpy&#34; =&gt; 0.359054
+      &#34;R builtin&#34; =&gt; 0.9619170000121358
+         &#34;R Rcpp&#34; =&gt; 1.1809470000230249
+              &#34;C&#34; =&gt; 1.1933465
+     &#34;Julia loop&#34; =&gt; 1.200629
+         &#34;R loop&#34; =&gt; 15.061760999998342
+ &#34;Python builtin&#34; =&gt; 74.629914
+    &#34;Python loop&#34; =&gt; 96.6070165</pre>
 </div>
 
 </div>
