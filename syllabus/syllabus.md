@@ -3,7 +3,7 @@ layout: course
 title: Biostat 257
 ---
 
-# Biostat 257 - Statistical Computing - 2020 Spring
+# Biostat 257 - Statistical Computing - 2021 Spring
 
 ## Syllabus
 
@@ -13,22 +13,21 @@ Computational algorithms for research in (bio)statistics, including numerical li
 
 ### Lecture and Lab
 
-Tue 1pm-2:50pm @ Zoom <https://ucla.zoom.us/j/507925583>   
-Thu 1pm-1:50pm @ Zoom <https://ucla.zoom.us/j/507925583>  
-Thu 2pm-2:50pm (Lab) @ Zoom <https://ucla.zoom.us/j/507925583>  
+Tue 1pm-2:50pm @ Zoom <https://ucla.zoom.us/j/97491444804>   
+Thu 1pm-1:50pm @ Zoom <https://ucla.zoom.us/j/97491444804>  
+Thu 2pm-2:50pm (Lab) @ Zoom <https://ucla.zoom.us/j/97491444804>  
 
 ### Instructor
 
 [Dr. Hua Zhou](http://hua-zhou.github.io/)  
 Office: CHS 21-254A  
-Phone: (310)794-7835  
 Email: <huazhou@ucla.edu>  
-Office hours: ~~Tue/Thu 3pm-4pm~~ Mon/Wed 4:30pm-5:30pm @ Zoom <https://ucla.zoom.us/j/507925583>
+Office hours: Tue 3pm-4pm, Thu 2mp-3pm @ Zoom <https://ucla.zoom.us/j/97491444804>
 
 ### Teaching Assistant
 
-Brendon Chau: <brendonchau@ucla.edu>  
-Office hours: ~~Mon, Wed, Fri 3pm-4pm~~ Tue/Thu 11am-12pm and Fri 1pm-2pm @ Zoom <https://ucla.zoom.us/j/8699262839>  
+Chris German: <cgerman@ucla.edu>  
+Office hours: Thu 3pm-5pm @ Zoom <https://ucla.zoom.us/j/97491444804>  
 
 ### Course Topics
 
@@ -43,11 +42,11 @@ This is a tentative list of topics:
 
 ### Prerequisite
 
-The prerequisite for this course is linear algebra (MATH 115A or [BIOSTAT 216](https://ucla-biostat216-2019fall.github.io/schedule.html)) and linear models (STAT 100C or BIOSTAT 250A). Those wishing to enroll without these prerequisites will need to obtain consent from the instructor.  Homework will use the technical computing language [Julia](http://julialang.org).  
+The prerequisite for this course is linear algebra (MATH 115A or [BIOSTAT 216](https://ucla-biostat216-2019fall.github.io/schedule.html) and linear models (STAT 100C or BIOSTAT 250A). Those wishing to enroll without these prerequisites will need to obtain consent from the instructor.  Homework will use the technical computing language [Julia](http://julialang.org).  
 
 ### Course Webpage
 
-<http://ucla-biostat-257.com> or <https://ucla-biostat-257-2020spring.github.io>
+<http://ucla-biostat-257.com> or <https://ucla-biostat-257-2021spring.github.io>
 
 ### Course Materials
 
@@ -59,7 +58,7 @@ Some useful references are listed below. None of them is required.
 
 ### Attendance
 
-I usually require class attendence. Given the COVID-19 pandemic, I understand students may not be able to attend certain lectures due to medical or technical reasons. Please proactively communicate with the instructor and TA and notify us your circumstances at earliest chance. 
+Class attendance to both lectures and labs is mandatory. If you are not able to attend a lecture or lab due to medical or technical reasons, please proactively communicate with the instructor and TA and notify us your circumstances at earliest chance. 
 
 ### Homework
 
@@ -71,7 +70,7 @@ There are no exams.
 
 ### Final Grade
 
-Grades will be based on homework (75%) and class participation (lecture/office hour attendence and questions) (25%).
+Grades will be based on homework (75%) and class participation (lecture/office hour attendance and questions) (25%).
 
 ### UCLA ADA Policy 
 
