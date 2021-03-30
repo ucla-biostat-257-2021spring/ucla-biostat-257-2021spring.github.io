@@ -13278,14 +13278,16 @@ div#notebook {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Julia Version 1.4.0
-Commit b8e9a9ecc6 (2020-03-21 16:36 UTC)
+<pre>Julia Version 1.5.0
+Commit 96786e22cc (2020-08-01 23:44 UTC)
 Platform Info:
   OS: Linux (x86_64-pc-linux-gnu)
   CPU: Intel(R) Core(TM) i9-9920X CPU @ 3.50GHz
   WORD_SIZE: 64
   LIBM: libopenlibm
-  LLVM: libLLVM-8.0.1 (ORCJIT, skylake)
+  LLVM: libLLVM-9.0.1 (ORCJIT, skylake)
+Environment:
+  JULIA_NUM_THREADS = 8
 </pre>
 </div>
 </div>
@@ -13372,9 +13374,9 @@ Platform Info:
 
 <div class="output_text output_subarea output_execute_result">
 <pre>3×3 CuArray{Float32,2,Nothing}:
- 0.384964  0.38627   0.175825
- 0.376902  0.221037  0.921937
- 0.674334  0.800958  0.985284</pre>
+ 0.0778205  0.831817  0.20406
+ 0.295554   0.359421  0.548004
+ 0.455887   0.67262   0.818847</pre>
 </div>
 
 </div>
@@ -13446,9 +13448,9 @@ Platform Info:
 
 <div class="output_text output_subarea output_execute_result">
 <pre>3×3 Array{Float32,2}:
- 0.384964  0.38627   0.175825
- 0.376902  0.221037  0.921937
- 0.674334  0.800958  0.985284</pre>
+ 0.0778205  0.831817  0.20406
+ 0.295554   0.359421  0.548004
+ 0.455887   0.67262   0.818847</pre>
 </div>
 
 </div>
@@ -13495,6 +13497,18 @@ Platform Info:
 
 <div class="output_area">
 
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>┌ Info: Precompiling BenchmarkTools [6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf]
+└ @ Base loading.jl:1278
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
     <div class="prompt output_prompt">Out[6]:</div>
 
 
@@ -13505,12 +13519,12 @@ Platform Info:
   memory estimate:  192 bytes
   allocs estimate:  2
   --------------
-  minimum time:     2.993 μs (0.00% GC)
-  median time:      172.123 μs (0.00% GC)
-  mean time:        166.267 μs (0.00% GC)
-  maximum time:     201.820 μs (0.00% GC)
+  minimum time:     2.972 μs (0.00% GC)
+  median time:      176.412 μs (0.00% GC)
+  mean time:        169.835 μs (0.00% GC)
+  maximum time:     185.467 μs (0.00% GC)
   --------------
-  samples:          3340
+  samples:          3271
   evals/sample:     9</pre>
 </div>
 
@@ -13549,12 +13563,12 @@ Platform Info:
   memory estimate:  0 bytes
   allocs estimate:  0
   --------------
-  minimum time:     8.710 ms (0.00% GC)
-  median time:      8.822 ms (0.00% GC)
-  mean time:        8.838 ms (0.00% GC)
-  maximum time:     11.772 ms (0.00% GC)
+  minimum time:     7.376 ms (0.00% GC)
+  median time:      7.520 ms (0.00% GC)
+  mean time:        7.612 ms (0.00% GC)
+  maximum time:     12.965 ms (0.00% GC)
   --------------
-  samples:          566
+  samples:          657
   evals/sample:     1</pre>
 </div>
 
@@ -13592,18 +13606,6 @@ Platform Info:
 
 <div class="output_area">
 
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stderr output_text">
-<pre>┌ Warning: Performing scalar operations on GPU arrays: This is very slow, consider disallowing these operations with `allowscalar(false)`
-└ @ GPUArrays /home/huazhou/.julia/packages/GPUArrays/QDGmr/src/host/indexing.jl:43
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
     <div class="prompt output_prompt">Out[8]:</div>
 
 
@@ -13611,15 +13613,15 @@ Platform Info:
 
 <div class="output_text output_subarea output_execute_result">
 <pre>BenchmarkTools.Trial: 
-  memory estimate:  3.30 KiB
-  allocs estimate:  107
+  memory estimate:  3.81 KiB
+  allocs estimate:  90
   --------------
-  minimum time:     812.867 μs (0.00% GC)
-  median time:      820.569 μs (0.00% GC)
-  mean time:        822.205 μs (0.09% GC)
-  maximum time:     7.234 ms (39.54% GC)
+  minimum time:     818.295 μs (0.00% GC)
+  median time:      825.061 μs (0.00% GC)
+  mean time:        826.854 μs (0.13% GC)
+  maximum time:     6.486 ms (51.50% GC)
   --------------
-  samples:          6074
+  samples:          6046
   evals/sample:     1</pre>
 </div>
 
@@ -13656,14 +13658,14 @@ Platform Info:
 <div class="output_text output_subarea output_execute_result">
 <pre>BenchmarkTools.Trial: 
   memory estimate:  4.00 MiB
-  allocs estimate:  6
+  allocs estimate:  4
   --------------
-  minimum time:     2.154 ms (0.00% GC)
-  median time:      2.200 ms (0.00% GC)
-  mean time:        2.365 ms (5.32% GC)
-  maximum time:     8.892 ms (0.00% GC)
+  minimum time:     1.971 ms (0.00% GC)
+  median time:      2.018 ms (0.00% GC)
+  mean time:        2.480 ms (5.54% GC)
+  maximum time:     14.605 ms (0.00% GC)
   --------------
-  samples:          2111
+  samples:          2016
   evals/sample:     1</pre>
 </div>
 
@@ -13715,16 +13717,16 @@ Platform Info:
 
 <div class="output_text output_subarea output_execute_result">
 <pre>BenchmarkTools.Trial: 
-  memory estimate:  3.66 KiB
-  allocs estimate:  84
+  memory estimate:  4.00 KiB
+  allocs estimate:  82
   --------------
-  minimum time:     8.005 μs (0.00% GC)
-  median time:      31.654 μs (0.00% GC)
-  mean time:        30.654 μs (0.91% GC)
-  maximum time:     1.469 ms (97.42% GC)
+  minimum time:     9.527 μs (0.00% GC)
+  median time:      27.800 μs (0.00% GC)
+  mean time:        25.060 μs (0.00% GC)
+  maximum time:     113.848 μs (0.00% GC)
   --------------
   samples:          10000
-  evals/sample:     3</pre>
+  evals/sample:     1</pre>
 </div>
 
 </div>
@@ -13763,12 +13765,12 @@ Platform Info:
   memory estimate:  0 bytes
   allocs estimate:  0
   --------------
-  minimum time:     14.246 ms (0.00% GC)
-  median time:      14.263 ms (0.00% GC)
-  mean time:        14.282 ms (0.00% GC)
-  maximum time:     14.463 ms (0.00% GC)
+  minimum time:     14.301 ms (0.00% GC)
+  median time:      14.314 ms (0.00% GC)
+  mean time:        14.318 ms (0.00% GC)
+  maximum time:     14.398 ms (0.00% GC)
   --------------
-  samples:          351
+  samples:          350
   evals/sample:     1</pre>
 </div>
 
