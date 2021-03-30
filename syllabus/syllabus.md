@@ -26,7 +26,7 @@ Office hours: Tue 3pm-4pm, Thu 2mp-3pm @ Zoom <https://ucla.zoom.us/j/9749144480
 
 ### Teaching Assistant
 
-Chris German: <cgerman@ucla.edu>  
+Chris German: <germc3@ucla.edu>  
 Office hours: Thu 3pm-5pm @ Zoom <https://ucla.zoom.us/j/97491444804>  
 
 ### Course Topics
