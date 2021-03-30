@@ -11,6 +11,8 @@ Zoom link: <https://ucla.zoom.us/j/97491444804>, for call in dial +1-213-338-847
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ucla-biostat-257-2021spring/ucla-biostat-257-2021spring.github.io/main)
 
+[CCLE Site](https://ccle.ucla.edu/course/view/21S-BIOSTAT257-1)
+
 Readings:  
 
 * [_50 years of data sicence_](../readings/Donoho15FiftyYearsDataScience.pdf) by David Donoho (2015)  

@@ -48,6 +48,12 @@ The prerequisite for this course is linear algebra (MATH 115A or [BIOSTAT 216](h
 
 <http://ucla-biostat-257.com> or <https://ucla-biostat-257-2021spring.github.io>
 
+### CCLE Site
+
+<https://ccle.ucla.edu/course/view/21S-BIOSTAT257-1>
+
+Recorded lectures will be posted on CCLE. 
+
 ### Course Materials
 
 Some useful references are listed below. None of them is required.  
