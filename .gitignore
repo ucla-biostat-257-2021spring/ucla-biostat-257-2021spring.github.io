@@ -29,4 +29,6 @@ Manifest.toml
 
 .ipynb_checkpoints
 scripts/
-hw*sol.*
+hw*sol*.*
+flights/
+grammatrix
